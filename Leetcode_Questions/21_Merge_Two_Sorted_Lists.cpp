@@ -74,7 +74,6 @@ bool isSameList(ListNode* list1, ListNode* list2)
     return true;
 }
 
-
 #if 0
 int main()
 {
