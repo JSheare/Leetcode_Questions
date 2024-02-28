@@ -21,5 +21,8 @@
     <ClCompile Include="20_Valid_Parentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
