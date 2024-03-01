@@ -27,5 +27,8 @@
     <ClCompile Include="121_Best_Time_to_Buy_and_Sell_Stock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="125_Valid_Palindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
