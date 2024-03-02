@@ -36,5 +36,8 @@
     <ClCompile Include="242_Valid_Anagram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="704_Binary_Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
