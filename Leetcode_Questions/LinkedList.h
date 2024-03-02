@@ -45,6 +45,11 @@ public:
 		return head;
 	}
 
+	void setHead(ListNode* head)
+	{
+		this->head = head;
+	}
+
 	bool operator==(LinkedList& list2)
 	{
 		ListNode* node1{ this->head };
