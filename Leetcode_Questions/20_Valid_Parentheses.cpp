@@ -3,8 +3,6 @@
 #include <string>
 #include <stack>
 
-
-
 bool isValid(std::string s)
 {
 	if (s.length() < 2)
@@ -31,7 +29,6 @@ bool isValid(std::string s)
 
 	return brackets.empty();
 }
-
 
 #if 0
 int main()
