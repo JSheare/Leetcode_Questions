@@ -2,7 +2,6 @@
 #define BT_H
 
 #include <iostream>
-#include <assert.h>
 #include <vector>
 #include <initializer_list>
 #include "TreeNode.h"
