@@ -132,6 +132,7 @@
     <ClCompile Include="110_Balanced_Binary_Tree.cpp" />
     <ClCompile Include="121_Best_Time_to_Buy_and_Sell_Stock.cpp" />
     <ClCompile Include="125_Valid_Palindrome.cpp" />
+    <ClCompile Include="141_Linked_List_Cycle.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="20_Valid_Parentheses.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
