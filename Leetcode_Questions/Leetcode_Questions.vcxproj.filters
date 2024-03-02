@@ -42,5 +42,16 @@
     <ClCompile Include="733_Flood_Fill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="235_Lowest_Common_Ancestor_BST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
