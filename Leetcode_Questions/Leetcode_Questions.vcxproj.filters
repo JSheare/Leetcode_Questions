@@ -39,5 +39,8 @@
     <ClCompile Include="704_Binary_Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="733_Flood_Fill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

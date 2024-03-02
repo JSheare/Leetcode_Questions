@@ -137,6 +137,7 @@
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
     <ClCompile Include="242_Valid_Anagram.cpp" />
     <ClCompile Include="704_Binary_Search.cpp" />
+    <ClCompile Include="733_Flood_Fill.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
