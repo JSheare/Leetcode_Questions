@@ -77,7 +77,7 @@ bool isSameTree(TreeNode* root1, TreeNode* root2)
 		isSameTree(root1->right, root2->right);
 }
 
-# if 1
+# if 0
 int main()
 {
 	TreeNode* testTree;
