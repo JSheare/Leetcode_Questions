@@ -29,7 +29,7 @@ bool isBalanced(TreeNode* root)
     return height(root) != -1;
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
