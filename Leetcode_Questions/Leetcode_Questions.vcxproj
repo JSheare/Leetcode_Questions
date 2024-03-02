@@ -134,6 +134,7 @@
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="20_Valid_Parentheses.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
+    <ClCompile Include="226_Invert_Binary_Tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
