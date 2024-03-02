@@ -37,7 +37,7 @@ public:
 		deleteList(this->head);
 	}
 
-	// If you use this, the list no longer assumes responsibility for deallocating the memory its' nodes occupy
+	// If you use this, the list no longer assumes responsibility for deallocating the memory its nodes occupy
 	ListNode* getHead()
 	{
 		ListNode* head{ this->head };
