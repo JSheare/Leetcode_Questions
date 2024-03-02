@@ -21,13 +21,13 @@ TreeNode* invertTree(TreeNode* root)
 int main()
 {
 	// Provided test cases
-	BinaryTree testTree1{ 4, 2, 7, 1, 3, 6, 9 };
-	BinaryTree answerTree1{ 4, 7, 2, 9, 6, 3, 1 };
+	BinaryTree testTree1{ "4", "2", "7", "1", "3", "6", "9" };
+	BinaryTree answerTree1{ "4", "7", "2", "9", "6", "3", "1" };
 	invertTree(testTree1.root);
 	assert(testTree1 == answerTree1);
 
-	BinaryTree testTree2{ 2, 1, 3 };
-	BinaryTree answerTree2{ 2, 3, 1 };
+	BinaryTree testTree2{ "2", "1", "3" };
+	BinaryTree answerTree2{ "2", "3", "1" };
 	invertTree(testTree2.root);
 	assert(testTree2 == answerTree2);
 

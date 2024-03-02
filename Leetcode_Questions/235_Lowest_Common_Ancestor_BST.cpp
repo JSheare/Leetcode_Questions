@@ -18,12 +18,12 @@ TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q)
 int main()
 {
 	// Provided test cases
-	BinaryTree tree1{ 6, 2, 8, 0, 4, 7, 9, NULL, NULL, 3, 5 };
+	BinaryTree tree1{ "6", "2", "8", "0", "4", "7", "9", "null", "null", "3", "5"};
 	TreeNode p1{ 2 };
 	TreeNode q1{ 8 };
 	assert(lowestCommonAncestor(tree1.root, &p1, &q1)->val == 6);
 
-	BinaryTree tree2{ 6, 2, 8, 0, 4, 7, 9, NULL, NULL, 3, 5 };
+	BinaryTree tree2{ "6", "2", "8", "0", "4", "7", "9", "null", "null", "3", "5"};
 	TreeNode p2{ 2 };
 	TreeNode q2{ 4 };
 	assert(lowestCommonAncestor(tree2.root, &p2, &q2)->val == 2);

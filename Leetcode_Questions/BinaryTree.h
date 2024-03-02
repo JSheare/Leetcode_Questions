@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 #include <initializer_list>
 #include "TreeNode.h"
 
@@ -11,9 +12,9 @@ class BinaryTree
 {
 public:
 	TreeNode* root;
-	std::vector<int> values;
+	std::vector<std::string> values;
 
-	BinaryTree(std::initializer_list<int> values) :
+	BinaryTree(std::initializer_list<std::string> values) :
 		root(nullptr), values(values)
 	{
 		this->root = makeTree(this->values);
@@ -32,7 +33,7 @@ public:
 	friend std::ostream& operator<<(std::ostream& out, BinaryTree& tree)
 	{
 		out << "[ ";
-		for (int value : tree.values)
+		for (std::string value : tree.values)
 		{
 			out << value << ' ';
 
@@ -42,7 +43,7 @@ public:
 	}
 
 private:
-	TreeNode* makeTree(std::vector<int>& values)
+	TreeNode* makeTree(std::vector<std::string>& values)
 	{
 		if (values.size() - 1 == -1)
 			return nullptr;
@@ -50,13 +51,13 @@ private:
 		return makeNode(values, 0);
 	}
 
-	TreeNode* makeNode(std::vector<int>& values, int index)
+	TreeNode* makeNode(std::vector<std::string>& values, int index)
 	{
 		int n{ static_cast<int>(values.size()) };
-		if (n <= index)
+		if (n <= index || values[index] == "null")
 			return nullptr;
 
-		TreeNode* node{ new TreeNode{values[index]} };
+		TreeNode* node{ new TreeNode{stoi(values[index])} };
 		node->left = makeNode(values, 2 * index + 1);
 		node->right = makeNode(values, 2 * index + 2);
 		return node;
