@@ -56,7 +56,7 @@ bool hasCycle(ListNode* head)
     return false;
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
