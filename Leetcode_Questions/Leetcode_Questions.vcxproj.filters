@@ -60,6 +60,9 @@
     <ClCompile Include="383_Ransom_Note.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="70_Climbing_Stairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
