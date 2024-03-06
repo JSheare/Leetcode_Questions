@@ -19,7 +19,7 @@ int search(const std::vector<int>& nums, int target)
     return -1;
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
