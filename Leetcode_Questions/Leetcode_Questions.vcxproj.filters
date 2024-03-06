@@ -51,6 +51,9 @@
     <ClCompile Include="141_Linked_List_Cycle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
