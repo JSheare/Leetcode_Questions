@@ -8,7 +8,7 @@ int search(const std::vector<int>& nums, int target)
     int high{ static_cast<int>(nums.size()) - 1 };
     while (low <= high)
     {
-        int mid{ (high + low) / 2 };
+        int mid{ low + (high - low) / 2};
         if (nums[mid] == target)
             return mid;
         else if (nums[mid] > target)
@@ -19,7 +19,7 @@ int search(const std::vector<int>& nums, int target)
     return -1;
 }
 
-#if 0
+#if 1
 int main()
 {
     // Provided test cases
