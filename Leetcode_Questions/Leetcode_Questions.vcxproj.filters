@@ -54,6 +54,9 @@
     <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="278_First_Bad_Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
