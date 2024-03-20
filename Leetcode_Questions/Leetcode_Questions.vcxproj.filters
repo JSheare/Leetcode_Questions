@@ -75,6 +75,9 @@
     <ClCompile Include="67_Add_Binary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="543_Diameter_of_Binary_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
