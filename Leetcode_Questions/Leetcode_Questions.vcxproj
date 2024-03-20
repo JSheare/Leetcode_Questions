@@ -150,6 +150,7 @@
     <ClCompile Include="704_Binary_Search.cpp" />
     <ClCompile Include="70_Climbing_Stairs.cpp" />
     <ClCompile Include="733_Flood_Fill.cpp" />
+    <ClCompile Include="876_Middle_of_Linked_List.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
