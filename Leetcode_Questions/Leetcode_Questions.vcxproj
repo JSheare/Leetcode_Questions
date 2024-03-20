@@ -142,6 +142,7 @@
     <ClCompile Include="242_Valid_Anagram.cpp" />
     <ClCompile Include="278_First_Bad_Version.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
+    <ClCompile Include="409_Longest_Palindrome.cpp" />
     <ClCompile Include="704_Binary_Search.cpp" />
     <ClCompile Include="70_Climbing_Stairs.cpp" />
     <ClCompile Include="733_Flood_Fill.cpp" />
