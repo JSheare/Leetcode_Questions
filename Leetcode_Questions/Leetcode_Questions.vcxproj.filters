@@ -81,6 +81,9 @@
     <ClCompile Include="876_Middle_of_Linked_List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="104_Max_Depth_of_Binary_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
