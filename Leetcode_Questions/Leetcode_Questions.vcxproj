@@ -134,6 +134,7 @@
     <ClCompile Include="125_Valid_Palindrome.cpp" />
     <ClCompile Include="141_Linked_List_Cycle.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
+    <ClCompile Include="206_Reverse_Linked_List.cpp" />
     <ClCompile Include="20_Valid_Parentheses.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
