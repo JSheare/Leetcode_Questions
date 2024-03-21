@@ -147,6 +147,7 @@
     <ClCompile Include="278_First_Bad_Version.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
     <ClCompile Include="409_Longest_Palindrome.cpp" />
+    <ClCompile Include="53_Max_Subarray.cpp" />
     <ClCompile Include="543_Diameter_of_Binary_Tree.cpp" />
     <ClCompile Include="67_Add_Binary.cpp" />
     <ClCompile Include="704_Binary_Search.cpp" />
