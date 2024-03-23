@@ -99,6 +99,9 @@
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3_Longest_Substring_Without_Repeats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
