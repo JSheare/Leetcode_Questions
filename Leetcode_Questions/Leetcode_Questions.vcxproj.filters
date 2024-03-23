@@ -102,6 +102,9 @@
     <ClCompile Include="3_Longest_Substring_Without_Repeats.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="15_3Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

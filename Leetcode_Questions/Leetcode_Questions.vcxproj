@@ -134,6 +134,7 @@
     <ClCompile Include="121_Best_Time_to_Buy_and_Sell_Stock.cpp" />
     <ClCompile Include="125_Valid_Palindrome.cpp" />
     <ClCompile Include="141_Linked_List_Cycle.cpp" />
+    <ClCompile Include="15_3Sum.cpp" />
     <ClCompile Include="169_Majority_Element.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="206_Reverse_Linked_List.cpp" />
