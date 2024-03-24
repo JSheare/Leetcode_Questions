@@ -33,7 +33,7 @@ Node* cloneGraph(Node* node)
     return clones[node->val];
 }
 
-# if 1
+# if 0
 int main()
 {
     // Provided test cases
