@@ -151,6 +151,7 @@
     <ClCompile Include="235_Lowest_Common_Ancestor_BST.cpp" />
     <ClCompile Include="242_Valid_Anagram.cpp" />
     <ClCompile Include="278_First_Bad_Version.cpp" />
+    <ClCompile Include="322_Coin_Change.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
     <ClCompile Include="3_Longest_Substring_Without_Repeats.cpp" />
     <ClCompile Include="409_Longest_Palindrome.cpp" />
