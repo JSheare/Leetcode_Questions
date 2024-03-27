@@ -114,6 +114,9 @@
     <ClCompile Include="150_Eval_Reverse_Polish.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="207_Course_Schedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
