@@ -142,6 +142,7 @@
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="206_Reverse_Linked_List.cpp" />
     <ClCompile Include="207_Course_Schedule.cpp" />
+    <ClCompile Include="208_Implement_Trie.cpp" />
     <ClCompile Include="20_Valid_Parentheses.cpp" />
     <ClCompile Include="217_Contains_Duplicate.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
@@ -171,6 +172,8 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="TrieNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
