@@ -149,6 +149,7 @@
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
     <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp" />
     <ClCompile Include="235_Lowest_Common_Ancestor_BST.cpp" />
+    <ClCompile Include="238_Product_of_Array_Except_Self.cpp" />
     <ClCompile Include="242_Valid_Anagram.cpp" />
     <ClCompile Include="278_First_Bad_Version.cpp" />
     <ClCompile Include="322_Coin_Change.cpp" />

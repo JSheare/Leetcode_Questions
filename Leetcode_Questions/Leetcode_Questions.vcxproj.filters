@@ -123,6 +123,9 @@
     <ClCompile Include="322_Coin_Change.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="238_Product_of_Array_Except_Self.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
