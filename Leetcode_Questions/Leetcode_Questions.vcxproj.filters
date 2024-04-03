@@ -132,6 +132,9 @@
     <ClCompile Include="98_Validate_BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="200_Number_of_Islands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

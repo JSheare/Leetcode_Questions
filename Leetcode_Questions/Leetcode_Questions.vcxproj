@@ -141,6 +141,7 @@
     <ClCompile Include="15_3Sum.cpp" />
     <ClCompile Include="169_Majority_Element.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
+    <ClCompile Include="200_Number_of_Islands.cpp" />
     <ClCompile Include="206_Reverse_Linked_List.cpp" />
     <ClCompile Include="207_Course_Schedule.cpp" />
     <ClCompile Include="208_Implement_Trie.cpp" />
