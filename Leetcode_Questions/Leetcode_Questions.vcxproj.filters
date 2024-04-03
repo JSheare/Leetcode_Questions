@@ -135,6 +135,9 @@
     <ClCompile Include="200_Number_of_Islands.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="994_Rotting_Oranges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
