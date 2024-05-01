@@ -150,6 +150,9 @@
     <ClCompile Include="236_Binary_Tree_LCA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="981_Time_Based_Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -177,6 +180,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MinStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -172,6 +172,7 @@
     <ClCompile Include="733_Flood_Fill.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
+    <ClCompile Include="981_Time_Based_Map.cpp" />
     <ClCompile Include="98_Validate_BST.cpp" />
     <ClCompile Include="994_Rotting_Oranges.cpp" />
   </ItemGroup>
@@ -182,6 +183,7 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="MinStack.h" />
     <ClInclude Include="Node.h" />
+    <ClInclude Include="TimeMap.h" />
     <ClInclude Include="TreeNode.h" />
     <ClInclude Include="Trie.h" />
     <ClInclude Include="TrieNode.h" />
