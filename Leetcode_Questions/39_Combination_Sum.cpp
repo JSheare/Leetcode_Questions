@@ -27,7 +27,7 @@ std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int t
 	return result;
 }
 
-#if 1
+#if 0
 int main()
 {
 	// Provided test cases
