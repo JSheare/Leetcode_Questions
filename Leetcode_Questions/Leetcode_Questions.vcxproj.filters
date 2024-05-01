@@ -147,6 +147,9 @@
     <ClCompile Include="46_Permutations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="236_Binary_Tree_LCA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

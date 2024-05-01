@@ -25,6 +25,11 @@ public:
 		deleteTree(this->root);
 	}
 
+	TreeNode* findNode(int val)
+	{
+		return dfs(this->root, val);
+	}
+
 	bool operator==(BinaryTree& tree2)
 	{
 		return isSameTree(this->root, tree2.root);
@@ -61,6 +66,16 @@ private:
 		node->left = makeNode(values, 2 * index + 1);
 		node->right = makeNode(values, 2 * index + 2);
 		return node;
+	}
+
+	TreeNode* dfs(TreeNode* root, int val)
+	{
+		if (!root || root->val == val)
+			return root;
+
+		TreeNode* left{ dfs(root->left, val) };
+		TreeNode* right{ dfs(root->right, val) };
+		return left ? left : right;
 	}
 
 	void deleteTree(TreeNode* root)
