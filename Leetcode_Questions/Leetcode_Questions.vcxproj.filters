@@ -156,6 +156,9 @@
     <ClCompile Include="721_Accounts_Merge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="75_Sort_Colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
