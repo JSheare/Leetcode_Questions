@@ -135,6 +135,7 @@
     <ClCompile Include="121_Best_Time_to_Buy_and_Sell_Stock.cpp" />
     <ClCompile Include="125_Valid_Palindrome.cpp" />
     <ClCompile Include="133_Clone_Graph.cpp" />
+    <ClCompile Include="139_Word_Break.cpp" />
     <ClCompile Include="141_Linked_List_Cycle.cpp" />
     <ClCompile Include="150_Eval_Reverse_Polish.cpp" />
     <ClCompile Include="155_Min_Stack.cpp" />
