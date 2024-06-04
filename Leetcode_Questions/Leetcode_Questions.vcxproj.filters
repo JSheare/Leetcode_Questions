@@ -162,6 +162,9 @@
     <ClCompile Include="139_Word_Break.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="416_Partition_Equal_Subset_Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
