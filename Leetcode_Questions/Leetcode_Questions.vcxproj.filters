@@ -168,6 +168,9 @@
     <ClCompile Include="8_String_To_Int.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="54_Spiral_Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

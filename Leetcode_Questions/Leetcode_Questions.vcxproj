@@ -167,6 +167,7 @@
     <ClCompile Include="53_Max_Subarray.cpp" />
     <ClCompile Include="542_01_Matrix.cpp" />
     <ClCompile Include="543_Diameter_of_Binary_Tree.cpp" />
+    <ClCompile Include="54_Spiral_Matrix.cpp" />
     <ClCompile Include="57_Insert_Interval.cpp" />
     <ClCompile Include="67_Add_Binary.cpp" />
     <ClCompile Include="704_Binary_Search.cpp" />
