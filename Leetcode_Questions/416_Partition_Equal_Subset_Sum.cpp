@@ -38,7 +38,7 @@ bool isSubsetSum(std::vector<int>& nums, int sum)
         for (int i{ sum }; i >= num; --i)
         {
             // check if current sum is possible with current number (or another already found)
-            dp[i] = dp[i] || dp[i - num];
+            dp[i] = dp[i] ? dp[i] : dp[i - num];
         }
     }
     return dp[sum];
