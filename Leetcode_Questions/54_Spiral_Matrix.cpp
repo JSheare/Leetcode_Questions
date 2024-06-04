@@ -41,7 +41,7 @@ std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix)
     return answer;
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
