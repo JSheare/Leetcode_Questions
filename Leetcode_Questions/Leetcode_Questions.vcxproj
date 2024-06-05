@@ -175,6 +175,7 @@
     <ClCompile Include="721_Accounts_Merge.cpp" />
     <ClCompile Include="733_Flood_Fill.cpp" />
     <ClCompile Include="75_Sort_Colors.cpp" />
+    <ClCompile Include="78_Subsets.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
