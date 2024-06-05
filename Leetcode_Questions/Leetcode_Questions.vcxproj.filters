@@ -174,6 +174,9 @@
     <ClCompile Include="78_Subsets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="199_Binary_Tree_Right_Side.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
