@@ -18,7 +18,7 @@ int traverse(std::vector<std::vector<int>>& grid, int i, int j)
 }
 
 // This could be optimized by only keeping the prev row and the current row
-// It might also be possible to basically just calculate the solution with combinatronics, but I haven't checked
+// It might also be possible to basically just calculate the solution with combinatorics, but I haven't checked
 int uniquePaths(int m, int n)
 {
     std::vector<std::vector<int>> grid(m, std::vector<int>(n, -1));
