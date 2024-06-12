@@ -5,6 +5,7 @@
 #include <vector>
 #include <string>
 #include <initializer_list>
+#include <queue>
 #include "TreeNode.h"
 
 // Not intended to be a super great BT class or anything, but it gets the job done for these questions and their test cases.
@@ -13,6 +14,12 @@ class BinaryTree
 public:
 	TreeNode* root;
 	std::vector<std::string> values;
+
+	BinaryTree(TreeNode* new_root = nullptr) :
+		root(new_root) 
+	{
+		this->values = makeValues(this->root);
+	}
 
 	BinaryTree(std::initializer_list<std::string> values) :
 		root(nullptr), values(values)
@@ -66,6 +73,27 @@ private:
 		node->left = makeNode(values, 2 * index + 1);
 		node->right = makeNode(values, 2 * index + 2);
 		return node;
+	}
+
+	std::vector<std::string> makeValues(TreeNode* root)
+	{
+		std::queue<TreeNode*> q;
+		std::vector<std::string> vals;
+		q.push(root);
+		while (!q.empty())
+		{
+			TreeNode* node{ q.front() };
+			q.pop();
+			if (!node)
+				vals.push_back("null");
+			else
+			{
+				vals.push_back(std::to_string(node->val));
+				q.push(node->left);
+				q.push(node->right);
+			}
+		}
+		return vals;
 	}
 
 	TreeNode* dfs(TreeNode* root, int val)

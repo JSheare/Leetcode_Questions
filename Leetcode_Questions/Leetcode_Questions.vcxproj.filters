@@ -183,6 +183,9 @@
     <ClCompile Include="62_Unique_Paths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="105_Construct_Binary_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
