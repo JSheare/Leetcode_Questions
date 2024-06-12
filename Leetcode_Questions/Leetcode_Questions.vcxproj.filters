@@ -189,6 +189,9 @@
     <ClCompile Include="11_Container_Most_Water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="17_Letter_Combos_Phone_Num.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
