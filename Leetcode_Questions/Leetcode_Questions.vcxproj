@@ -158,6 +158,7 @@
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
     <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp" />
+    <ClCompile Include="234_Palindrome_Linked_List.cpp" />
     <ClCompile Include="235_Lowest_Common_Ancestor_BST.cpp" />
     <ClCompile Include="236_Binary_Tree_LCA.cpp" />
     <ClCompile Include="238_Product_of_Array_Except_Self.cpp" />
