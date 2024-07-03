@@ -201,6 +201,9 @@
     <ClCompile Include="310_Minimum_Height_Trees.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="338_Counting_Bits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
