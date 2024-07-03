@@ -144,6 +144,7 @@
     <ClCompile Include="15_3Sum.cpp" />
     <ClCompile Include="169_Majority_Element.cpp" />
     <ClCompile Include="17_Letter_Combos_Phone_Num.cpp" />
+    <ClCompile Include="191_Number_of_Bits.cpp" />
     <ClCompile Include="199_Binary_Tree_Right_Side.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="200_Number_of_Islands.cpp" />
