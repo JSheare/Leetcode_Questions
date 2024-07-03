@@ -207,6 +207,9 @@
     <ClCompile Include="191_Number_of_Bits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="14_Longest_Common_Prefix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
