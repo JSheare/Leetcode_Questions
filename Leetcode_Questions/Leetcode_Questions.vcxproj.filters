@@ -210,6 +210,9 @@
     <ClCompile Include="14_Longest_Common_Prefix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="136_Single_Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
