@@ -164,6 +164,7 @@
     <ClCompile Include="238_Product_of_Array_Except_Self.cpp" />
     <ClCompile Include="242_Valid_Anagram.cpp" />
     <ClCompile Include="278_First_Bad_Version.cpp" />
+    <ClCompile Include="283_Move_Zeros.cpp" />
     <ClCompile Include="310_Minimum_Height_Trees.cpp" />
     <ClCompile Include="322_Coin_Change.cpp" />
     <ClCompile Include="338_Counting_Bits.cpp" />
