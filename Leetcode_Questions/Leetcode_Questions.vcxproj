@@ -184,6 +184,7 @@
     <ClCompile Include="542_01_Matrix.cpp" />
     <ClCompile Include="543_Diameter_of_Binary_Tree.cpp" />
     <ClCompile Include="54_Spiral_Matrix.cpp" />
+    <ClCompile Include="572_Subtree_Of_Another_Tree.cpp" />
     <ClCompile Include="57_Insert_Interval.cpp" />
     <ClCompile Include="5_Longest_Palindromic_Substr.cpp" />
     <ClCompile Include="62_Unique_Paths.cpp" />
