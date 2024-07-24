@@ -219,6 +219,9 @@
     <ClCompile Include="283_Move_Zeros.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="101_Symmetric_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
