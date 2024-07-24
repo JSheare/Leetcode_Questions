@@ -225,6 +225,9 @@
     <ClCompile Include="268_Missing_Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="9_Palindrome_Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

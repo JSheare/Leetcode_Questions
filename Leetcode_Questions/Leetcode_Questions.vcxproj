@@ -199,6 +199,7 @@
     <ClCompile Include="981_Time_Based_Map.cpp" />
     <ClCompile Include="98_Validate_BST.cpp" />
     <ClCompile Include="994_Rotting_Oranges.cpp" />
+    <ClCompile Include="9_Palindrome_Number.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
