@@ -240,6 +240,9 @@
     <ClCompile Include="977_Squares_Of_Sorted_Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="739_Daily_Temperatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
