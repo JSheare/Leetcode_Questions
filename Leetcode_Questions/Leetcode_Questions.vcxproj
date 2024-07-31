@@ -199,6 +199,7 @@
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
+    <ClCompile Include="977_Squares_Of_Sorted_Array.cpp" />
     <ClCompile Include="981_Time_Based_Map.cpp" />
     <ClCompile Include="98_Validate_BST.cpp" />
     <ClCompile Include="994_Rotting_Oranges.cpp" />
