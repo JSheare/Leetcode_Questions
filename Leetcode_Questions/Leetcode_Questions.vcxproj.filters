@@ -243,6 +243,9 @@
     <ClCompile Include="739_Daily_Temperatures.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="198_House_Robber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

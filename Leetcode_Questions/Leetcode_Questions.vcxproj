@@ -150,6 +150,7 @@
     <ClCompile Include="17_Letter_Combos_Phone_Num.cpp" />
     <ClCompile Include="190_Reverse_Bits.cpp" />
     <ClCompile Include="191_Number_of_Bits.cpp" />
+    <ClCompile Include="198_House_Robber.cpp" />
     <ClCompile Include="199_Binary_Tree_Right_Side.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="200_Number_of_Islands.cpp" />
