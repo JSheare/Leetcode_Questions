@@ -246,6 +246,9 @@
     <ClCompile Include="198_House_Robber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="134_Gas_Station.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
