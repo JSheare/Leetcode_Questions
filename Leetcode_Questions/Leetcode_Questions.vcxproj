@@ -184,6 +184,7 @@
     <ClCompile Include="416_Partition_Equal_Subset_Sum.cpp" />
     <ClCompile Include="438_Find_All_Anagrams.cpp" />
     <ClCompile Include="46_Permutations.cpp" />
+    <ClCompile Include="49_Group_Anagrams.cpp" />
     <ClCompile Include="53_Max_Subarray.cpp" />
     <ClCompile Include="542_01_Matrix.cpp" />
     <ClCompile Include="543_Diameter_of_Binary_Tree.cpp" />
