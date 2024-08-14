@@ -249,6 +249,9 @@
     <ClCompile Include="134_Gas_Station.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="31_Next_Permutation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
