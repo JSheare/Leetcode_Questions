@@ -176,6 +176,7 @@
     <ClCompile Include="322_Coin_Change.cpp" />
     <ClCompile Include="338_Counting_Bits.cpp" />
     <ClCompile Include="33_Search_Rotated_Sorted_Array.cpp" />
+    <ClCompile Include="36_Valid_Sudoku.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
     <ClCompile Include="39_Combination_Sum.cpp" />
     <ClCompile Include="3_Longest_Substring_Without_Repeats.cpp" />

@@ -252,6 +252,9 @@
     <ClCompile Include="31_Next_Permutation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="36_Valid_Sudoku.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
