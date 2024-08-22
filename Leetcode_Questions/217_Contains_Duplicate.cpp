@@ -4,6 +4,7 @@
 #include <vector>
 #include <unordered_set>
 
+#if 1
 bool containsDuplicate(std::vector<int>& nums)
 {
     std::sort(nums.begin(), nums.end());
@@ -14,21 +15,24 @@ bool containsDuplicate(std::vector<int>& nums)
     }
     return false;
 }
+#endif
 
 // Another solution that uses a set instead. This one is faster (O(n) vs. O(nlogn)), but uses more memory
-//bool containsDeuplicate(std::vector<int>& nums)
-//{
-//    std::unordered_set<int> values;
-//    values.reserve(nums.size());
-//        for (int num : nums)
-//        {
-//            if (values.find(num) != values.end())
-//                return true;
-//
-//            values.insert(num);
-//        }
-//    return false;
-//}
+#if 0
+bool containsDuplicate(std::vector<int>& nums)
+{
+    std::unordered_set<int> values;
+    values.reserve(nums.size());
+        for (int num : nums)
+        {
+            if (values.find(num) != values.end())
+                return true;
+
+            values.insert(num);
+        }
+    return false;
+}
+#endif
 
 #if 0
 int main()

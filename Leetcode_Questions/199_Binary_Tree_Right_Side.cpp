@@ -9,29 +9,32 @@
 
 
 // DFS approach
-//void traverse(TreeNode* root, int level, std::unordered_set<int>& visited, std::vector<int>& view)
-//{
-//    if (!root)
-//        return;
-//
-//    if (!visited.count(level))
-//    {
-//        view.push_back(root->val);
-//        visited.insert(level);
-//    }
-//    traverse(root->right, level + 1, visited, view);
-//    traverse(root->left, level + 1, visited, view);
-//}
-//
-//std::vector<int> rightSideView(TreeNode* root)
-//{
-//    std::unordered_set<int> visited;
-//    std::vector<int> view;
-//    traverse(root, 0, visited, view);
-//    return view;
-//}
+#if 0
+void traverse(TreeNode* root, int level, std::unordered_set<int>& visited, std::vector<int>& view)
+{
+    if (!root)
+        return;
+
+    if (!visited.count(level))
+    {
+        view.push_back(root->val);
+        visited.insert(level);
+    }
+    traverse(root->right, level + 1, visited, view);
+    traverse(root->left, level + 1, visited, view);
+}
+
+std::vector<int> rightSideView(TreeNode* root)
+{
+    std::unordered_set<int> visited;
+    std::vector<int> view;
+    traverse(root, 0, visited, view);
+    return view;
+}
+#endif
 
 // BFS approach
+#if 1
 std::vector<int> rightSideView(TreeNode* root)
 {
     if (!root)
@@ -62,6 +65,7 @@ std::vector<int> rightSideView(TreeNode* root)
     }
     return view;
 }
+#endif
 
 #if 0
 int main()

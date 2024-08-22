@@ -37,35 +37,37 @@ std::vector<std::vector<int>> threeSum(std::vector<int>& nums)
 }
 
 // A more general answer with a target parameter
-//std::vector<std::vector<int>> threeSum(std::vector<int>& nums, int target)
-//{
-//    std::sort(nums.begin(), nums.end());
-//    std::vector<std::vector<int>> answer;
-//    for (int i{ 0 }; i < nums.size() - 2; ++i)
-//    {
-//        if (i > 0 && nums[i] == nums[i - 1])
-//            continue;
-//
-//        int l{ i + 1 };
-//        int r{ static_cast<int>(nums.size()) - 1 };
-//        while (l < r)
-//        {
-//            int total = nums[i] + nums[l] + nums[r];
-//            if (total < target)
-//                ++l;
-//            else if (total > target)
-//                --r;
-//            else
-//            {
-//                std::vector<int> triplet{ nums[i], nums[l], nums[r] };
-//                answer.push_back(triplet);
-//                while (l < r && nums[l] == triplet[1]) { ++l; }
-//                while (l < r && nums[r] == triplet[2]) { --r; }
-//            }
-//        }
-//    }
-//    return answer;
-//}
+#if 0
+std::vector<std::vector<int>> threeSum(std::vector<int>& nums, int target)
+{
+    std::sort(nums.begin(), nums.end());
+    std::vector<std::vector<int>> answer;
+    for (int i{ 0 }; i < nums.size() - 2; ++i)
+    {
+        if (i > 0 && nums[i] == nums[i - 1])
+            continue;
+
+        int l{ i + 1 };
+        int r{ static_cast<int>(nums.size()) - 1 };
+        while (l < r)
+        {
+            int total = nums[i] + nums[l] + nums[r];
+            if (total < target)
+                ++l;
+            else if (total > target)
+                --r;
+            else
+            {
+                std::vector<int> triplet{ nums[i], nums[l], nums[r] };
+                answer.push_back(triplet);
+                while (l < r && nums[l] == triplet[1]) { ++l; }
+                while (l < r && nums[r] == triplet[2]) { --r; }
+            }
+        }
+    }
+    return answer;
+}
+#endif
 
 #if 0
 int main()

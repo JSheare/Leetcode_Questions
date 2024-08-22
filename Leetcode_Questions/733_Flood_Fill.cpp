@@ -5,6 +5,7 @@
 #include <queue>
 
 // BFS solution
+#if 1
 std::vector<std::vector<int>> floodFill(std::vector<std::vector<int>>& image, int sr, int sc, int color)
 {
     if (color != image[sr][sc])
@@ -33,8 +34,10 @@ std::vector<std::vector<int>> floodFill(std::vector<std::vector<int>>& image, in
     }
     return image;
 }
+#endif
 
 // DFS solution
+#if 0
 void dfs(std::vector<std::vector<int>>& image, int sr, int sc, int targetColor, int fillColor)
 {
     if (image[sr][sc] == fillColor)
@@ -51,12 +54,13 @@ void dfs(std::vector<std::vector<int>>& image, int sr, int sc, int targetColor, 
     }
 }
 
-std::vector<std::vector<int>> floodFillDFS(std::vector<std::vector<int>>& image, int sr, int sc, int color)
+std::vector<std::vector<int>> floodFill(std::vector<std::vector<int>>& image, int sr, int sc, int color)
 {
     if (color != image[sr][sc])
         dfs(image, sr, sc, color, image[sr][sc]);
     return image;
 }
+#endif
 
 #if 0
 int main()

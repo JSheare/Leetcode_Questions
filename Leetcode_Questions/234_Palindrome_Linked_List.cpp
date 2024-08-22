@@ -6,37 +6,40 @@
 #include "LinkedList.h"
 
 // Linear time solution
-//bool isPalindrome(ListNode* head)
-//{
-//    if (!head || !head->next)
-//        return true;
-//
-//    std::stack<int> half;
-//    ListNode* ptr{ head };
-//    half.push(ptr->val);
-//    ptr = ptr->next;
-//    head = head->next->next;
-//    while (head && head->next)
-//    {
-//        half.push(ptr->val);
-//        ptr = ptr->next;
-//        head = head->next->next;
-//    }
-//    if (head)
-//        ptr = ptr->next;
-//
-//    while (ptr)
-//    {
-//        if (ptr->val != half.top())
-//            return false;
-//
-//        ptr = ptr->next;
-//        half.pop();
-//    }
-//    return true;
-//}
+#if 0
+bool isPalindrome(ListNode* head)
+{
+    if (!head || !head->next)
+        return true;
+
+    std::stack<int> half;
+    ListNode* ptr{ head };
+    half.push(ptr->val);
+    ptr = ptr->next;
+    head = head->next->next;
+    while (head && head->next)
+    {
+        half.push(ptr->val);
+        ptr = ptr->next;
+        head = head->next->next;
+    }
+    if (head)
+        ptr = ptr->next;
+
+    while (ptr)
+    {
+        if (ptr->val != half.top())
+            return false;
+
+        ptr = ptr->next;
+        half.pop();
+    }
+    return true;
+}
+#endif
 
 // Linear time and constant space solution (modifies list)
+#if 1
 bool isPalindrome(ListNode* head)
 {
     if (!head || !head->next)
@@ -71,6 +74,7 @@ bool isPalindrome(ListNode* head)
     }
     return true;
 }
+#endif
 
 # if 0
 int main()

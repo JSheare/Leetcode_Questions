@@ -6,48 +6,51 @@
 
 
 // easier-to-understand sliding window approach
-//std::vector<int> findAnagrams(std::string s, std::string p)
-//{
-//    if (p.length() > s.length())
-//        return {};
-//
-//    std::vector<int> indices;
-//    std::vector<int> freq(26, 0);
-//    std::unordered_set<char> chars;
-//    for (auto& c : p)
-//    {
-//        ++freq[c - 'a'];
-//        chars.insert(c);
-//    }
-//    int left{ 0 };
-//    int right{ static_cast<int>(p.length()) - 1 };
-//    for (int i{ 0 }; i < right; ++i)
-//    {
-//        --freq[s[i] - 'a'];
-//    }
-//    while (right < s.length())
-//    {
-//        --freq[s[right] - 'a'];
-//        bool found{ true };
-//        for (auto& c : chars)
-//        {
-//            if (freq[c - 'a'] != 0)
-//            {
-//                found = false;
-//                break;
-//            }
-//        }
-//        if (found)
-//            indices.push_back(left);
-//
-//        ++freq[s[left] - 'a'];
-//        ++left;
-//        ++right;
-//    }
-//    return indices;
-//}
+#if 0
+std::vector<int> findAnagrams(std::string s, std::string p)
+{
+    if (p.length() > s.length())
+        return {};
+
+    std::vector<int> indices;
+    std::vector<int> freq(26, 0);
+    std::unordered_set<char> chars;
+    for (auto& c : p)
+    {
+        ++freq[c - 'a'];
+        chars.insert(c);
+    }
+    int left{ 0 };
+    int right{ static_cast<int>(p.length()) - 1 };
+    for (int i{ 0 }; i < right; ++i)
+    {
+        --freq[s[i] - 'a'];
+    }
+    while (right < s.length())
+    {
+        --freq[s[right] - 'a'];
+        bool found{ true };
+        for (auto& c : chars)
+        {
+            if (freq[c - 'a'] != 0)
+            {
+                found = false;
+                break;
+            }
+        }
+        if (found)
+            indices.push_back(left);
+
+        ++freq[s[left] - 'a'];
+        ++left;
+        ++right;
+    }
+    return indices;
+}
+#endif
 
 // More efficient sliding window approach
+#if 1
 std::vector<int> findAnagrams(std::string s, std::string p)
 {
     int m{ static_cast<int>(p.length()) };
@@ -76,6 +79,7 @@ std::vector<int> findAnagrams(std::string s, std::string p)
     }
     return indices;
 }
+#endif
 
 #if 0
 int main()

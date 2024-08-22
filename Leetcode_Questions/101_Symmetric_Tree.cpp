@@ -6,52 +6,55 @@
 #include "BinaryTree.h"
 
 // Iterative Solution
-//bool isSymmetric(TreeNode* root)
-//{
-//    if (!root->left && !root->right)
-//        return true;
-//
-//    if (!root->left || !root->right)
-//        return false;
-//
-//    std::queue<TreeNode*> q;
-//    q.push(root->left);
-//    q.push(root->right);
-//    while (!q.empty())
-//    {
-//        int size{ static_cast<int>(q.size()) };
-//        if (size % 2 != 0)
-//            return false;
-//
-//        size /= 2;
-//        while (size > 0)
-//        {
-//            TreeNode* leftNode{ q.front() };
-//            q.pop();
-//            TreeNode* rightNode{ q.front() };
-//            q.pop();
-//            if (!leftNode && !rightNode)
-//            {
-//                --size;
-//                continue;
-//            }
-//            if (!leftNode || !rightNode)
-//                return false;
-//
-//            if (leftNode->val != rightNode->val)
-//                return false;
-//
-//            q.push(leftNode->left);
-//            q.push(rightNode->right);
-//            q.push(leftNode->right);
-//            q.push(rightNode->left);
-//            --size;
-//        }
-//    }
-//    return true;
-//}
+#if 0
+bool isSymmetric(TreeNode* root)
+{
+    if (!root->left && !root->right)
+        return true;
+
+    if (!root->left || !root->right)
+        return false;
+
+    std::queue<TreeNode*> q;
+    q.push(root->left);
+    q.push(root->right);
+    while (!q.empty())
+    {
+        int size{ static_cast<int>(q.size()) };
+        if (size % 2 != 0)
+            return false;
+
+        size /= 2;
+        while (size > 0)
+        {
+            TreeNode* leftNode{ q.front() };
+            q.pop();
+            TreeNode* rightNode{ q.front() };
+            q.pop();
+            if (!leftNode && !rightNode)
+            {
+                --size;
+                continue;
+            }
+            if (!leftNode || !rightNode)
+                return false;
+
+            if (leftNode->val != rightNode->val)
+                return false;
+
+            q.push(leftNode->left);
+            q.push(rightNode->right);
+            q.push(leftNode->right);
+            q.push(rightNode->left);
+            --size;
+        }
+    }
+    return true;
+}
+#endif
 
 // Recursive Solution
+#if 1
 bool isMirror(TreeNode* left, TreeNode* right)
 {
     if (!left && !right)
@@ -75,6 +78,7 @@ bool isSymmetric(TreeNode* root)
 
     return isMirror(root->left, root->right);
 }
+#endif
 
 #if 0
 int main()

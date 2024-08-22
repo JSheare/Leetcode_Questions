@@ -11,18 +11,21 @@
 // so we'll XOR each number from the actual sum of n and each number from the expected sum of n together.
 // By 3, every number from the actual sum cancels out its corresponding number from the expected sum, 
 // leaving us with the missing number.
-//int misisngNumber(std::vector<int>& nums)
-//{
-//    int xorry{ 0 };
-//    for (int i{ 0 }; i < nums.size(); ++i)
-//    {
-//        xorry ^= i;
-//        xorry ^= nums[i];
-//    }
-//    return xorry;
-//}
+#if 0
+int missingNumber(std::vector<int>& nums)
+{
+    int xorry{ 0 };
+    for (int i{ 0 }; i < nums.size(); ++i)
+    {
+        xorry ^= i;
+        xorry ^= nums[i];
+    }
+    return xorry;
+}
+#endif
 
 // Math solution
+#if 1
 int missingNumber(std::vector<int>& nums)
 {
     int n{ static_cast<int>(nums.size()) };
@@ -34,12 +37,14 @@ int missingNumber(std::vector<int>& nums)
     // The sum of n nums is just n*(n+1)/2
     return n * (n + 1) / 2 - sum;
 }
+#endif
 
 #if 0
 int main()
 {
     // Provided test cases
     std::vector<int> test1{ 3, 0, 1 };
+    std::cout << missingNumber(test1);
     assert(missingNumber(test1) == 2);
 
     std::vector<int> test2{ 0, 1 };

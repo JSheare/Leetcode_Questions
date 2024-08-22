@@ -5,6 +5,7 @@
 #include <utility>
 #include <algorithm>
 
+#if 1
 int orangesRotting(std::vector<std::vector<int>>& grid)
 {
     std::queue<std::pair<std::pair<int, int>, int>> q;
@@ -60,63 +61,66 @@ int orangesRotting(std::vector<std::vector<int>>& grid)
     }
     return freshCount == rottenCount ? minutes : -1;
 }
+#endif
 
 
 // A more memory-efficient version (testing says that it's a little slower but I'm not so sure). Keeping it as an alt just in case
-//int orangesRotting(std::vector<std::vector<int>>& grid)
-//{
-//    std::queue<std::pair<std::pair<int, int>, int>> q;
-//    int freshCount{ 0 };
-//    for (int i{ 0 }; i < grid.size(); ++i)
-//    {
-//        for (int j{ 0 }; j < grid[0].size(); ++j)
-//        {
-//            if (grid[i][j] == 2)
-//                q.push({ {i, j}, 0 });
-//            else if (grid[i][j] == 1)
-//                ++freshCount;
-//        }
-//    }
-//    int minutes{ 0 };
-//    int rottenCount{ 0 };
-//    while (!q.empty())
-//    {
-//        int qsize{ static_cast<int>(q.size()) };
-//        while (qsize--)
-//        {
-//            int i{ q.front().first.first };
-//            int j{ q.front().first.second };
-//            int time{ q.front().second };
-//            q.pop();
-//            minutes = std::max(minutes, time);
-//            if (i - 1 >= 0 && grid[i - 1][j] == 1)
-//            {
-//                q.push({ {i - 1, j}, time + 1 });
-//                grid[i - 1][j] = 2;
-//                ++rottenCount;
-//            }
-//            if (i + 1 < grid.size() && grid[i + 1][j] == 1)
-//            {
-//                q.push({ {i + 1, j}, time + 1 });
-//                grid[i + 1][j] = 2;
-//                ++rottenCount;
-//            }
-//            if (j - 1 >= 0 && grid[i][j - 1] == 1)
-//            {
-//                q.push({ {i, j - 1}, time + 1 });
-//                grid[i][j - 1] = 2;
-//                ++rottenCount;
-//            }
-//            if (j + 1 < grid[0].size() && grid[i][j + 1] == 1)
-//            {
-//                q.push({ {i, j + 1}, time + 1 });
-//                grid[i][j + 1] = 2;
-//                ++rottenCount;
-//            }
-//        }
-//    }
-//    return freshCount == rottenCount ? minutes : -1;
-//}
+#if 0
+int orangesRotting(std::vector<std::vector<int>>& grid)
+{
+    std::queue<std::pair<std::pair<int, int>, int>> q;
+    int freshCount{ 0 };
+    for (int i{ 0 }; i < grid.size(); ++i)
+    {
+        for (int j{ 0 }; j < grid[0].size(); ++j)
+        {
+            if (grid[i][j] == 2)
+                q.push({ {i, j}, 0 });
+            else if (grid[i][j] == 1)
+                ++freshCount;
+        }
+    }
+    int minutes{ 0 };
+    int rottenCount{ 0 };
+    while (!q.empty())
+    {
+        int qsize{ static_cast<int>(q.size()) };
+        while (qsize--)
+        {
+            int i{ q.front().first.first };
+            int j{ q.front().first.second };
+            int time{ q.front().second };
+            q.pop();
+            minutes = std::max(minutes, time);
+            if (i - 1 >= 0 && grid[i - 1][j] == 1)
+            {
+                q.push({ {i - 1, j}, time + 1 });
+                grid[i - 1][j] = 2;
+                ++rottenCount;
+            }
+            if (i + 1 < grid.size() && grid[i + 1][j] == 1)
+            {
+                q.push({ {i + 1, j}, time + 1 });
+                grid[i + 1][j] = 2;
+                ++rottenCount;
+            }
+            if (j - 1 >= 0 && grid[i][j - 1] == 1)
+            {
+                q.push({ {i, j - 1}, time + 1 });
+                grid[i][j - 1] = 2;
+                ++rottenCount;
+            }
+            if (j + 1 < grid[0].size() && grid[i][j + 1] == 1)
+            {
+                q.push({ {i, j + 1}, time + 1 });
+                grid[i][j + 1] = 2;
+                ++rottenCount;
+            }
+        }
+    }
+    return freshCount == rottenCount ? minutes : -1;
+}
+#endif
 
 #if 0
 int main()

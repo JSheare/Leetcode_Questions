@@ -3,30 +3,33 @@
 #include <vector>
 
 // Full partition table solution (not as time efficient)
-//bool isSubsetSum(std::vector<int>& nums, int sum)
-//{
-//    std::vector<std::vector<bool>> part_table(nums.size() + 1, std::vector<bool>(sum + 1, false));
-//    for (int i{ 0 }; i <= nums.size(); ++i)
-//    {
-//        // zero sum will always be possible
-//        part_table[i][0] = true;
-//    }
-//
-//    // Filling out the partition table from the bottom up
-//    for (int i{ 1 }; i <= nums.size(); ++i)
-//    {
-//        for (int j{ 1 }; j <= sum; ++j)
-//        {
-//            if (nums[i - 1] <= j)  // If the current number is less than the current sum
-//                // Check if adding the current element gets us to the current sum
-//                part_table[i][j] = (part_table[i - 1][j - nums[i - 1]]) || part_table[i - 1][j];
-//            else  // Otherwise just check if current sum was possible with one fewer element
-//                part_table[i][j] = part_table[i - 1][j];
-//        }
-//    }
-//    return part_table[nums.size()][sum];
-//}
+#if 0
+bool isSubsetSum(std::vector<int>& nums, int sum)
+{
+    std::vector<std::vector<bool>> part_table(nums.size() + 1, std::vector<bool>(sum + 1, false));
+    for (int i{ 0 }; i <= nums.size(); ++i)
+    {
+        // zero sum will always be possible
+        part_table[i][0] = true;
+    }
 
+    // Filling out the partition table from the bottom up
+    for (int i{ 1 }; i <= nums.size(); ++i)
+    {
+        for (int j{ 1 }; j <= sum; ++j)
+        {
+            if (nums[i - 1] <= j)  // If the current number is less than the current sum
+                // Check if adding the current element gets us to the current sum
+                part_table[i][j] = (part_table[i - 1][j - nums[i - 1]]) || part_table[i - 1][j];
+            else  // Otherwise just check if current sum was possible with one fewer element
+                part_table[i][j] = part_table[i - 1][j];
+        }
+    }
+    return part_table[nums.size()][sum];
+}
+#endif
+
+# if 1
 bool isSubsetSum(std::vector<int>& nums, int sum)
 {
     std::vector<int> dp(sum + 1, 0);
@@ -43,6 +46,7 @@ bool isSubsetSum(std::vector<int>& nums, int sum)
     }
     return dp[sum];
 }
+#endif
 
 bool canPartition(std::vector<int>& nums)
 {
