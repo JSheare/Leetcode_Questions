@@ -184,6 +184,7 @@
     <ClCompile Include="3_Longest_Substring_Without_Repeats.cpp" />
     <ClCompile Include="409_Longest_Palindrome.cpp" />
     <ClCompile Include="416_Partition_Equal_Subset_Sum.cpp" />
+    <ClCompile Include="417_Pacific_Atlantic_Water.cpp" />
     <ClCompile Include="438_Find_All_Anagrams.cpp" />
     <ClCompile Include="46_Permutations.cpp" />
     <ClCompile Include="49_Group_Anagrams.cpp" />

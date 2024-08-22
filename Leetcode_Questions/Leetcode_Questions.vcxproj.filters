@@ -264,6 +264,9 @@
     <ClCompile Include="211_Design_Add_And_Search_Words.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="417_Pacific_Atlantic_Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
