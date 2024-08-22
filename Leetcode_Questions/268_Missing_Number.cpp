@@ -20,6 +20,7 @@ int missingNumber(std::vector<int>& nums)
         xorry ^= i;
         xorry ^= nums[i];
     }
+    xorry ^= nums.size();
     return xorry;
 }
 #endif
@@ -44,7 +45,6 @@ int main()
 {
     // Provided test cases
     std::vector<int> test1{ 3, 0, 1 };
-    std::cout << missingNumber(test1);
     assert(missingNumber(test1) == 2);
 
     std::vector<int> test2{ 0, 1 };
