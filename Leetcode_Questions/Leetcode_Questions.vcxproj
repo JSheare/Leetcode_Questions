@@ -160,6 +160,7 @@
     <ClCompile Include="207_Course_Schedule.cpp" />
     <ClCompile Include="208_Implement_Trie.cpp" />
     <ClCompile Include="20_Valid_Parentheses.cpp" />
+    <ClCompile Include="211_Design_Add_And_Search_Words.cpp" />
     <ClCompile Include="217_Contains_Duplicate.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
@@ -224,6 +225,7 @@
     <ClInclude Include="TreeNode.h" />
     <ClInclude Include="Trie.h" />
     <ClInclude Include="TrieNode.h" />
+    <ClInclude Include="WordDictionary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

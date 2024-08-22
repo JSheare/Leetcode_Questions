@@ -261,6 +261,9 @@
     <ClCompile Include="152_Max_Product_Subarray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="211_Design_Add_And_Search_Words.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -294,6 +297,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DisjointSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordDictionary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
