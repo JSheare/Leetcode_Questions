@@ -154,6 +154,7 @@
     <ClCompile Include="191_Number_of_Bits.cpp" />
     <ClCompile Include="198_House_Robber.cpp" />
     <ClCompile Include="199_Binary_Tree_Right_Side.cpp" />
+    <ClCompile Include="19_Remove_Nth_Node_From_LL_End.cpp" />
     <ClCompile Include="1_Two_Sum.cpp" />
     <ClCompile Include="200_Number_of_Islands.cpp" />
     <ClCompile Include="206_Reverse_Linked_List.cpp" />

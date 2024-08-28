@@ -267,6 +267,9 @@
     <ClCompile Include="417_Pacific_Atlantic_Water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="19_Remove_Nth_Node_From_LL_End.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
