@@ -199,6 +199,7 @@
     <ClCompile Include="5_Longest_Palindromic_Substr.cpp" />
     <ClCompile Include="62_Unique_Paths.cpp" />
     <ClCompile Include="67_Add_Binary.cpp" />
+    <ClCompile Include="692_Top_K_Freq_Words.cpp" />
     <ClCompile Include="704_Binary_Search.cpp" />
     <ClCompile Include="70_Climbing_Stairs.cpp" />
     <ClCompile Include="721_Accounts_Merge.cpp" />
