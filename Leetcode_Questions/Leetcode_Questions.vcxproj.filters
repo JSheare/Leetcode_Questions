@@ -276,6 +276,9 @@
     <ClCompile Include="692_Top_K_Freq_Words.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="300_Longest_Increasing_Subsequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
