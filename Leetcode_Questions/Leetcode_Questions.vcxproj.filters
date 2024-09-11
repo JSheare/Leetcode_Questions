@@ -285,6 +285,9 @@
     <ClCompile Include="24_Swap_Nodes_In_Pairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="113_Path_Sum_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

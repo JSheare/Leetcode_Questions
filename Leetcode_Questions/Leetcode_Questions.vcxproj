@@ -135,6 +135,7 @@
     <ClCompile Include="105_Construct_Binary_Tree.cpp" />
     <ClCompile Include="108_Sorted_Array_To_BST.cpp" />
     <ClCompile Include="110_Balanced_Binary_Tree.cpp" />
+    <ClCompile Include="113_Path_Sum_II.cpp" />
     <ClCompile Include="11_Container_Most_Water.cpp" />
     <ClCompile Include="121_Best_Time_to_Buy_and_Sell_Stock.cpp" />
     <ClCompile Include="125_Valid_Palindrome.cpp" />
