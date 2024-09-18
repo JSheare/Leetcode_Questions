@@ -13,7 +13,7 @@ void rotate(std::vector<int>& nums, int k)
     reverse(nums.begin(), nums.end());
 }
 
-#if 
+#if 0
 int main()
 {
     // Provided test cases
