@@ -288,6 +288,9 @@
     <ClCompile Include="113_Path_Sum_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="128_Longest_Consecutive_Sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
