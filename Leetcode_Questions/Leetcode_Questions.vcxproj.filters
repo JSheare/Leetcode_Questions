@@ -297,6 +297,9 @@
     <ClCompile Include="328_Odd_Even_LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="394_Decode_String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
