@@ -300,6 +300,9 @@
     <ClCompile Include="394_Decode_String.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="525_Contiguous_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
