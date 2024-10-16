@@ -207,6 +207,7 @@
     <ClCompile Include="57_Insert_Interval.cpp" />
     <ClCompile Include="5_Longest_Palindromic_Substr.cpp" />
     <ClCompile Include="62_Unique_Paths.cpp" />
+    <ClCompile Include="658_Find_K_Closest_Elements.cpp" />
     <ClCompile Include="662_Maximum_Width_of_BT.cpp" />
     <ClCompile Include="67_Add_Binary.cpp" />
     <ClCompile Include="692_Top_K_Freq_Words.cpp" />

@@ -306,6 +306,9 @@
     <ClCompile Include="662_Maximum_Width_of_BT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="658_Find_K_Closest_Elements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
