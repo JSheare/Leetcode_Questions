@@ -312,6 +312,9 @@
     <ClCompile Include="424_Longest_Repeating_Character_Replacement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="55_Jump_Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
