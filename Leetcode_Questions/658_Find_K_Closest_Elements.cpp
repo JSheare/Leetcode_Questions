@@ -74,7 +74,7 @@ std::vector<int> findClosestElements(std::vector<int>& arr, int k, int x)
     int right{ static_cast<int>(arr.size()) - 1 };
     while (right - left >= k)
     {
-        if (abs(arr[left] - x) > abs(arr[right] - x))
+        if (std::abs(arr[left] - x) > std::abs(arr[right] - x))
             ++left;
         else
             --right;
