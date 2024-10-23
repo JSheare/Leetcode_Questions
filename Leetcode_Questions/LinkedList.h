@@ -8,10 +8,9 @@
 // The jankiest linked list ever
 class LinkedList
 {
-private:
+public:
 	ListNode* head{ nullptr };
 
-public:
 	LinkedList(ListNode* head):
 		head(head)
 	{}
@@ -20,21 +19,22 @@ public:
 	{
 		if (values.size() > 0)
 		{
-			ListNode dummy{};
-			ListNode* current{ &dummy };
+			ListNode* dummy{new ListNode()};
+			ListNode* current{ dummy };
 			for (int value : values)
 			{
 				current->next = new ListNode{ value };
 				current = current->next;
 			}
 
-			this->head = dummy.next;
+			head = dummy->next;
+			delete dummy;
 		}
 	}
 
 	~LinkedList()
 	{
-		deleteList(this->head);
+		deleteList(head);
 	}
 
 	// If you use this, the list no longer assumes responsibility for deallocating the memory its nodes occupy
@@ -63,9 +63,7 @@ public:
 			node2 = node2->next;
 		}
 
-		if (node1)
-			return false;
-		if (node2)
+		if (node1 || node2)
 			return false;
 
 		return true;
@@ -94,9 +92,9 @@ public:
 	{
 		while (head)
 		{
-			ListNode* nextNode{ head->next };
+			ListNode* next{ head->next };
 			delete head;
-			head = nextNode;
+			head = next;
 		}
 	}
 };
