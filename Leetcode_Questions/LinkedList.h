@@ -19,16 +19,15 @@ public:
 	{
 		if (values.size() > 0)
 		{
-			ListNode* dummy{new ListNode()};
-			ListNode* current{ dummy };
+			ListNode dummy{};
+			ListNode* current{ &dummy };
 			for (int value : values)
 			{
 				current->next = new ListNode{ value };
 				current = current->next;
 			}
 
-			head = dummy->next;
-			delete dummy;
+			head = dummy.next;
 		}
 	}
 

@@ -6,8 +6,8 @@
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
 {
-    ListNode* curr{ new ListNode() };
-    ListNode* dummy{ curr };
+    ListNode dummy{};
+    ListNode* curr{ &dummy };
     int total{ 0 };
     int carry{ 0 };
     while (l1 || l2 || carry)
@@ -27,9 +27,7 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
         curr->next = new ListNode(total % 10);
         curr = curr->next;
     }
-    curr = dummy->next;
-    delete dummy;
-    return curr;
+    return dummy.next;
 }
 
 #if 0
