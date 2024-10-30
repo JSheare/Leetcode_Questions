@@ -330,6 +330,9 @@
     <ClCompile Include="735_Asteroid_Collision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="528_Random_Pick_With_Weight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -366,6 +369,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WordDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomPickWeighted.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
