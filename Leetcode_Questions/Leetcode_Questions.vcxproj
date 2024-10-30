@@ -208,6 +208,7 @@
     <ClCompile Include="543_Diameter_of_Binary_Tree.cpp" />
     <ClCompile Include="54_Spiral_Matrix.cpp" />
     <ClCompile Include="55_Jump_Game.cpp" />
+    <ClCompile Include="560_Subarray_Sum_Equals_K.cpp" />
     <ClCompile Include="572_Subtree_Of_Another_Tree.cpp" />
     <ClCompile Include="57_Insert_Interval.cpp" />
     <ClCompile Include="5_Longest_Palindromic_Substr.cpp" />
