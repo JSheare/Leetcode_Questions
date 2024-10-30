@@ -327,6 +327,9 @@
     <ClCompile Include="560_Subarray_Sum_Equals_K.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="735_Asteroid_Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
