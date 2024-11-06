@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="101_Symmetric_Tree.cpp" />
     <ClCompile Include="102_Binary_Tree_Level_Order_Traversal.cpp" />
+    <ClCompile Include="103_BT_Zig_Zag_LOT.cpp" />
     <ClCompile Include="104_Max_Depth_of_Binary_Tree.cpp" />
     <ClCompile Include="105_Construct_Binary_Tree.cpp" />
     <ClCompile Include="108_Sorted_Array_To_BST.cpp" />
