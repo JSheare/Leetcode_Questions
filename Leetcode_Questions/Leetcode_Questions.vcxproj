@@ -170,6 +170,7 @@
     <ClCompile Include="215_Kth_Largest_Element_In_Array.cpp" />
     <ClCompile Include="217_Contains_Duplicate.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
+    <ClCompile Include="221_Maximal_Square.cpp" />
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
     <ClCompile Include="22_Generate_Parentheses.cpp" />
     <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp" />
