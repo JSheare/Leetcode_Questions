@@ -203,6 +203,7 @@
     <ClCompile Include="424_Longest_Repeating_Character_Replacement.cpp" />
     <ClCompile Include="438_Find_All_Anagrams.cpp" />
     <ClCompile Include="46_Permutations.cpp" />
+    <ClCompile Include="48_Rotate_Image.cpp" />
     <ClCompile Include="49_Group_Anagrams.cpp" />
     <ClCompile Include="525_Contiguous_Array.cpp" />
     <ClCompile Include="528_Random_Pick_With_Weight.cpp" />
