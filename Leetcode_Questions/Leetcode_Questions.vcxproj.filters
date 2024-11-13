@@ -345,6 +345,9 @@
     <ClCompile Include="103_BT_Zig_Zag_LOT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="437_Path_Sum_III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

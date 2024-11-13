@@ -202,6 +202,7 @@
     <ClCompile Include="416_Partition_Equal_Subset_Sum.cpp" />
     <ClCompile Include="417_Pacific_Atlantic_Water.cpp" />
     <ClCompile Include="424_Longest_Repeating_Character_Replacement.cpp" />
+    <ClCompile Include="437_Path_Sum_III.cpp" />
     <ClCompile Include="438_Find_All_Anagrams.cpp" />
     <ClCompile Include="46_Permutations.cpp" />
     <ClCompile Include="48_Rotate_Image.cpp" />
