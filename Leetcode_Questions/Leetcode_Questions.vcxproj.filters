@@ -360,6 +360,9 @@
     <ClCompile Include="91_Decode_Ways.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="7_Reverse_Integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
