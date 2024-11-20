@@ -237,6 +237,7 @@
     <ClCompile Include="79_Word_Search.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />
+    <ClCompile Include="91_Decode_Ways.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
     <ClCompile Include="977_Squares_Of_Sorted_Array.cpp" />
     <ClCompile Include="981_Time_Based_Map.cpp" />
