@@ -146,6 +146,7 @@
     <ClCompile Include="136_Single_Number.cpp" />
     <ClCompile Include="139_Word_Break.cpp" />
     <ClCompile Include="141_Linked_List_Cycle.cpp" />
+    <ClCompile Include="143_Reorder_List.cpp" />
     <ClCompile Include="148_Sort_List.cpp" />
     <ClCompile Include="14_Longest_Common_Prefix.cpp" />
     <ClCompile Include="150_Eval_Reverse_Polish.cpp" />
