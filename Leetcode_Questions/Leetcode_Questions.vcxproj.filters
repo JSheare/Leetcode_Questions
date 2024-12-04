@@ -372,6 +372,9 @@
     <ClCompile Include="787_Cheapest_Flights_Within_K_Stops.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="863_All_Nodes_Distance_K_In_BT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
