@@ -44,14 +44,11 @@ std::vector<std::vector<int>> threeSum(std::vector<int>& nums, int target)
     std::vector<std::vector<int>> answer;
     for (int i{ 0 }; i < nums.size() - 2; ++i)
     {
-        if (i > 0 && nums[i] == nums[i - 1])
-            continue;
-
         int l{ i + 1 };
         int r{ static_cast<int>(nums.size()) - 1 };
         while (l < r)
         {
-            int total = nums[i] + nums[l] + nums[r];
+            int total{ nums[i] + nums[l] + nums[r] };
             if (total < target)
                 ++l;
             else if (total > target)
