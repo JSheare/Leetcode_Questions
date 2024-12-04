@@ -369,6 +369,9 @@
     <ClCompile Include="143_Reorder_List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="787_Cheapest_Flights_Within_K_Stops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
