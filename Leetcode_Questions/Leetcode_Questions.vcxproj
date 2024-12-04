@@ -154,6 +154,7 @@
     <ClCompile Include="155_Min_Stack.cpp" />
     <ClCompile Include="15_3Sum.cpp" />
     <ClCompile Include="169_Majority_Element.cpp" />
+    <ClCompile Include="16_3Sum_Closest.cpp" />
     <ClCompile Include="179_Largest_Number.cpp" />
     <ClCompile Include="17_Letter_Combos_Phone_Num.cpp" />
     <ClCompile Include="189_Rotate_Array.cpp" />

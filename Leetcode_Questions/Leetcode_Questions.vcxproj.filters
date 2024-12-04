@@ -375,6 +375,9 @@
     <ClCompile Include="863_All_Nodes_Distance_K_In_BT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="16_3Sum_Closest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
