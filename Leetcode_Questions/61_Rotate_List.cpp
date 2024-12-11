@@ -21,7 +21,7 @@ ListNode* rotateRight(ListNode* head, int k)
     tail->next = head;
     k = k % length;
     int steps{ length - k };
-    // Advancing the tail to it's new position
+    // Advancing the tail to its new position
     while (steps--)
     {
         tail = tail->next;
