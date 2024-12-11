@@ -381,6 +381,9 @@
     <ClCompile Include="61_Rotate_List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="153_Find_Min_In_Rotated_Sorted_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

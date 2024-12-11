@@ -151,6 +151,7 @@
     <ClCompile Include="14_Longest_Common_Prefix.cpp" />
     <ClCompile Include="150_Eval_Reverse_Polish.cpp" />
     <ClCompile Include="152_Max_Product_Subarray.cpp" />
+    <ClCompile Include="153_Find_Min_In_Rotated_Sorted_Array.cpp" />
     <ClCompile Include="155_Min_Stack.cpp" />
     <ClCompile Include="15_3Sum.cpp" />
     <ClCompile Include="169_Majority_Element.cpp" />
