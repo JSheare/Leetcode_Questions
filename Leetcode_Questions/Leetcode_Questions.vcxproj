@@ -177,6 +177,7 @@
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
     <ClCompile Include="221_Maximal_Square.cpp" />
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
+    <ClCompile Include="227_Basic_Calculator_II.cpp" />
     <ClCompile Include="22_Generate_Parentheses.cpp" />
     <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp" />
     <ClCompile Include="234_Palindrome_Linked_List.cpp" />
