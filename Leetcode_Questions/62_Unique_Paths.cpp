@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 int traverse(std::vector<std::vector<int>>& grid, int i, int j)

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 
 uint32_t reverseBits(uint32_t n)
 {

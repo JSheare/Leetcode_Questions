@@ -1,7 +1,8 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <unordered_map>
 #include <queue>
+
 #include "Node.h"
 #include "Graph.h"
 

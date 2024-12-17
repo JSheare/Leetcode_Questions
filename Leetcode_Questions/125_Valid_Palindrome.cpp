@@ -1,7 +1,6 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <string>
-#include <ctype.h>
 
 bool isPalindrome(std::string& s)
 {

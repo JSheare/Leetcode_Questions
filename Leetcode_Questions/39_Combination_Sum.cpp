@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 void backtrack(int index, std::vector<int>& candidates, int target, std::vector<int>& combo, std::vector<std::vector<int>>& result)

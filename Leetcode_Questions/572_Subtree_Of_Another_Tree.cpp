@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 
 #include "Treenode.h"
 #include "BinaryTree.h"

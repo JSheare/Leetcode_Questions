@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <algorithm>
 #include <limits.h>
 #include <vector>

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 // This is the Boyer-Moore majority vote algorithm

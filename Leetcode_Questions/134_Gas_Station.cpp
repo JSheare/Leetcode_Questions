@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 int canCompleteCircuit(std::vector<int>& gas, std::vector<int>& cost)

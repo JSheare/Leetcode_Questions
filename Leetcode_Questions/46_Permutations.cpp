@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 void backtrack(std::vector<int>& nums, std::vector<std::vector<int>>& result, std::vector<int>& perm, std::vector<bool>& used)

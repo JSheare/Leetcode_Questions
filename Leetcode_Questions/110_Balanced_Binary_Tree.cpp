@@ -1,7 +1,8 @@
 #include <iostream>
-#include <assert.h>
-#include <stdlib.h>
+#include <cassert>
+#include <cstdlib>
 #include <algorithm>
+
 #include "TreeNode.h"
 #include "BinaryTree.h"
 
@@ -18,7 +19,7 @@ int height(TreeNode* root)
     if (rightHeight == -1)
         return -1;
 
-    if (abs(rightHeight - leftHeight) > 1)
+    if (std::abs(rightHeight - leftHeight) > 1)
         return -1;
 
     return 1 + std::max(leftHeight, rightHeight);

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 void backtrack(std::vector<int>& nums, int start, std::vector<int>& subset, std::vector<std::vector<int>>& power_set)

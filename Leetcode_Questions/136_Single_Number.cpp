@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 // Operates on the principle that A XOR B XOR A = B, order is not important

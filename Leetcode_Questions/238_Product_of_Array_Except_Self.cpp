@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 std::vector<int> productExceptSelf(std::vector<int>& nums)

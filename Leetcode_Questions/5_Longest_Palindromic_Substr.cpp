@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <string>
 
 int lengthFromCenter(std::string& s, int left, int right)

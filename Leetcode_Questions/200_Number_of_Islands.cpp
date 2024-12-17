@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 void dfs(std::vector<std::vector<char>>& grid, int i, int j)

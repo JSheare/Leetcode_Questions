@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <vector>
 
 std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix)
