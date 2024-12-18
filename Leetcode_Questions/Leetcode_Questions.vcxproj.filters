@@ -387,6 +387,9 @@
     <ClCompile Include="227_Basic_Calculator_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="377_Combination_Sum_IV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

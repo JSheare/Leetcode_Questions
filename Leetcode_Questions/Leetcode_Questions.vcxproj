@@ -199,6 +199,7 @@
     <ClCompile Include="338_Counting_Bits.cpp" />
     <ClCompile Include="33_Search_Rotated_Sorted_Array.cpp" />
     <ClCompile Include="36_Valid_Sudoku.cpp" />
+    <ClCompile Include="377_Combination_Sum_IV.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
     <ClCompile Include="394_Decode_String.cpp" />
     <ClCompile Include="39_Combination_Sum.cpp" />
