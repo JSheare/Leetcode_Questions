@@ -390,6 +390,9 @@
     <ClCompile Include="377_Combination_Sum_IV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="380_Insert_Delete_GetRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -429,6 +432,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RandomPickWeighted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomizedSet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
