@@ -4,7 +4,7 @@
 
 #include "RandomPickWeighted.h"
 
-// See RandomPick.h for implementation
+// See RandomPickWeighted.h and RandomPickWeighted.cpp for implementation
 
 #if 0
 int main()

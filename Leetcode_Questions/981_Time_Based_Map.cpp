@@ -4,7 +4,7 @@
 
 #include "TimeMap.h"
 
-// See TimeMap.h for implementation details
+// See TimeMap.h and TimeMap.cpp for implementation details
 
 #if 0
 int main()

@@ -255,6 +255,16 @@
     <ClCompile Include="98_Validate_BST.cpp" />
     <ClCompile Include="994_Rotting_Oranges.cpp" />
     <ClCompile Include="9_Palindrome_Number.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="RandomizedSet.cpp" />
+    <ClCompile Include="RandomPickWeighted.cpp" />
+    <ClCompile Include="TimeMap.cpp" />
+    <ClCompile Include="Trie.cpp" />
+    <ClCompile Include="TrieNode.cpp" />
+    <ClCompile Include="WordDictionary.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />

@@ -4,7 +4,7 @@
 
 #include "WordDictionary.h"
 
-// See WordDictionary.h for implementation
+// See WordDictionary.h and WordDictionary.cpp for implementation
 
 #if 0
 int main()

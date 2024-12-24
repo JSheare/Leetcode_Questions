@@ -4,7 +4,7 @@
 
 #include "Trie.h"
 
-// See Trie.h for implementation
+// See Trie.h and Trie.cpp for implementation
 
 #if 0
 int main()

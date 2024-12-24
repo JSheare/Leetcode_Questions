@@ -3,7 +3,7 @@
 
 #include "MinStack.h"
 
-// See MinStack.h for implementation
+// See MinStack.h and MinStack.cpp for implementation
 
 #if 0
 int main()

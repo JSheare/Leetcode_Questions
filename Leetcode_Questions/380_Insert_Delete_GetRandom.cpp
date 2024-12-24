@@ -3,7 +3,7 @@
 
 #include "RandomizedSet.h"
 
-// See RandomizedSet.h for implementation
+// See RandomizedSet.h and RandomizedSet.cpp for implementation
 
 #if 0
 int main()
