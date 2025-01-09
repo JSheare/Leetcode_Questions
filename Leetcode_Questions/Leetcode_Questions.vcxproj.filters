@@ -426,6 +426,12 @@
     <ClCompile Include="621_Task_Scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="146_LRU_Cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -468,6 +474,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RandomizedSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

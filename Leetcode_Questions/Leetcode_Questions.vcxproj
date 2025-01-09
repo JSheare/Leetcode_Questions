@@ -147,6 +147,7 @@
     <ClCompile Include="139_Word_Break.cpp" />
     <ClCompile Include="141_Linked_List_Cycle.cpp" />
     <ClCompile Include="143_Reorder_List.cpp" />
+    <ClCompile Include="146_LRU_Cache.cpp" />
     <ClCompile Include="148_Sort_List.cpp" />
     <ClCompile Include="14_Longest_Common_Prefix.cpp" />
     <ClCompile Include="150_Eval_Reverse_Polish.cpp" />
@@ -259,6 +260,7 @@
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="RandomizedSet.cpp" />
     <ClCompile Include="RandomPickWeighted.cpp" />
@@ -269,10 +271,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="CacheNode.h" />
     <ClInclude Include="DisjointSet.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="LRUCache.h" />
     <ClInclude Include="MinStack.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="RandomizedSet.h" />
