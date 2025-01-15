@@ -180,6 +180,7 @@
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
     <ClCompile Include="227_Basic_Calculator_II.cpp" />
     <ClCompile Include="22_Generate_Parentheses.cpp" />
+    <ClCompile Include="230_Kth_Smallest_Element_In_A_BST.cpp" />
     <ClCompile Include="232_Implement_Queue_Using_Stacks.cpp" />
     <ClCompile Include="234_Palindrome_Linked_List.cpp" />
     <ClCompile Include="235_Lowest_Common_Ancestor_BST.cpp" />
