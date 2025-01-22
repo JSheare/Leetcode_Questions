@@ -67,7 +67,7 @@ int kthSmallest(TreeNode* root, int k)
 }
 #endif
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
