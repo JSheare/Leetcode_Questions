@@ -441,6 +441,9 @@
     <ClCompile Include="435_Non-Overlapping_Intervals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="13_Roman_To_Integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

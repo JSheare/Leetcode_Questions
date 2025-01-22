@@ -145,6 +145,7 @@
     <ClCompile Include="134_Gas_Station.cpp" />
     <ClCompile Include="136_Single_Number.cpp" />
     <ClCompile Include="139_Word_Break.cpp" />
+    <ClCompile Include="13_Roman_To_Integer.cpp" />
     <ClCompile Include="141_Linked_List_Cycle.cpp" />
     <ClCompile Include="143_Reorder_List.cpp" />
     <ClCompile Include="146_LRU_Cache.cpp" />
