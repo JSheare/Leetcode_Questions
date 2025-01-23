@@ -191,7 +191,7 @@
     <ClCompile Include="24_Swap_Nodes_In_Pairs.cpp" />
     <ClCompile Include="268_Missing_Number.cpp" />
     <ClCompile Include="278_First_Bad_Version.cpp" />
-    <ClCompile Include="283_Move_Zeros.cpp" />
+    <ClCompile Include="283_Move_Zeroes.cpp" />
     <ClCompile Include="287_Find_Duplicate_Number.cpp" />
     <ClCompile Include="2_Add_Two_Numbers.cpp" />
     <ClCompile Include="300_Longest_Increasing_Subsequence.cpp" />
