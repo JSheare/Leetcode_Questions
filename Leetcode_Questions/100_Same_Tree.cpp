@@ -17,7 +17,7 @@ bool sameTree(TreeNode* p, TreeNode* q)
         sameTree(p->right, q->right);
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
