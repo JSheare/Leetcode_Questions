@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="100_Same_Tree.cpp" />
     <ClCompile Include="101_Symmetric_Tree.cpp" />
     <ClCompile Include="102_Binary_Tree_Level_Order_Traversal.cpp" />
     <ClCompile Include="103_BT_Zig_Zag_LOT.cpp" />
