@@ -194,6 +194,7 @@
     <ClCompile Include="278_First_Bad_Version.cpp" />
     <ClCompile Include="283_Move_Zeroes.cpp" />
     <ClCompile Include="287_Find_Duplicate_Number.cpp" />
+    <ClCompile Include="297_Serialize_And_Deserialize_BT.cpp" />
     <ClCompile Include="2_Add_Two_Numbers.cpp" />
     <ClCompile Include="300_Longest_Increasing_Subsequence.cpp" />
     <ClCompile Include="310_Minimum_Height_Trees.cpp" />
@@ -272,6 +273,7 @@
     <ClCompile Include="RandomizedSet.cpp" />
     <ClCompile Include="RandomPickWeighted.cpp" />
     <ClCompile Include="TimeMap.cpp" />
+    <ClCompile Include="TreeCodec.cpp" />
     <ClCompile Include="Trie.cpp" />
     <ClCompile Include="TrieNode.cpp" />
     <ClCompile Include="WordDictionary.cpp" />
@@ -289,6 +291,7 @@
     <ClInclude Include="RandomizedSet.h" />
     <ClInclude Include="RandomPickWeighted.h" />
     <ClInclude Include="TimeMap.h" />
+    <ClInclude Include="TreeCodec.h" />
     <ClInclude Include="TreeNode.h" />
     <ClInclude Include="Trie.h" />
     <ClInclude Include="TrieNode.h" />

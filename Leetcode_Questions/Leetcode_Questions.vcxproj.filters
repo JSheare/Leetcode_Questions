@@ -453,6 +453,12 @@
     <ClCompile Include="76_Minimum_Window_Substring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="297_Serialize_And_Deserialize_BT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -501,6 +507,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LRUCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCodec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
