@@ -194,6 +194,7 @@
     <ClCompile Include="278_First_Bad_Version.cpp" />
     <ClCompile Include="283_Move_Zeroes.cpp" />
     <ClCompile Include="287_Find_Duplicate_Number.cpp" />
+    <ClCompile Include="295_Find_Median_From_Data_Stream.cpp" />
     <ClCompile Include="297_Serialize_And_Deserialize_BT.cpp" />
     <ClCompile Include="2_Add_Two_Numbers.cpp" />
     <ClCompile Include="300_Longest_Increasing_Subsequence.cpp" />
@@ -270,6 +271,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LRUCache.cpp" />
+    <ClCompile Include="MedianFinder.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="RandomizedSet.cpp" />
     <ClCompile Include="RandomPickWeighted.cpp" />
@@ -287,6 +289,7 @@
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="LRUCache.h" />
+    <ClInclude Include="MedianFinder.h" />
     <ClInclude Include="MinStack.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="RandomizedSet.h" />

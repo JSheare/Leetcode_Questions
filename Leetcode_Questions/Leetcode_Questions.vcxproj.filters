@@ -462,6 +462,12 @@
     <ClCompile Include="42_Trapping_Rain_Water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MedianFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="295_Find_Median_From_Data_Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -513,6 +519,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TreeCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MedianFinder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
