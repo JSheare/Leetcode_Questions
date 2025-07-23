@@ -42,7 +42,7 @@ int ladderLength(std::string beginWord, std::string endWord, std::vector<std::st
     return 0;
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases

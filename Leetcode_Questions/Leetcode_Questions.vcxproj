@@ -180,6 +180,7 @@
     <ClCompile Include="217_Contains_Duplicate.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
     <ClCompile Include="221_Maximal_Square.cpp" />
+    <ClCompile Include="224_Basic_Calculator.cpp" />
     <ClCompile Include="226_Invert_Binary_Tree.cpp" />
     <ClCompile Include="227_Basic_Calculator_II.cpp" />
     <ClCompile Include="22_Generate_Parentheses.cpp" />
