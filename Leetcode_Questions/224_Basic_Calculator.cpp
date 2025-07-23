@@ -3,7 +3,7 @@
 #include <stack>
 #include <string>
 
-int calculate(std::string s)
+int calculate_bc1(std::string s)
 {
     std::stack<int> st;
     int sum{ 0 };
@@ -49,4 +49,18 @@ int calculate(std::string s)
     return sum;
 }
 
-#
+#if 0
+int main()
+{
+    // Provided test cases
+    assert(calculate_bc1("1 + 1") == 2);
+
+    assert(calculate_bc1(" 2-1 + 2 ") == 3);
+
+    assert(calculate_bc1("(1+(4+5+2)-3)+(6+8)") == 23);
+
+    std::cout << "Success!\n";
+
+    return 0;
+}
+#endif
