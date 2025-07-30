@@ -474,6 +474,9 @@
     <ClCompile Include="224_Basic_Calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1235_Maximum_Profit_In_Job_Scheduling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
