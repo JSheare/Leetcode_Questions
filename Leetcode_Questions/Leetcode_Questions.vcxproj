@@ -191,6 +191,7 @@
     <ClCompile Include="235_Lowest_Common_Ancestor_BST.cpp" />
     <ClCompile Include="236_Binary_Tree_LCA.cpp" />
     <ClCompile Include="238_Product_of_Array_Except_Self.cpp" />
+    <ClCompile Include="23_Merge_K_Sorted_Lists.cpp" />
     <ClCompile Include="242_Valid_Anagram.cpp" />
     <ClCompile Include="24_Swap_Nodes_In_Pairs.cpp" />
     <ClCompile Include="268_Missing_Number.cpp" />

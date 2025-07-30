@@ -477,6 +477,9 @@
     <ClCompile Include="1235_Maximum_Profit_In_Job_Scheduling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="23_Merge_K_Sorted_Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
