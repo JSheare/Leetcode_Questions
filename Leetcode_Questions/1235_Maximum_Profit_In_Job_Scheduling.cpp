@@ -4,7 +4,6 @@
 #include <tuple>
 #include <algorithm>
 
-
 int jobScheduling(std::vector<int>& startTime, std::vector<int>& endTime, std::vector<int>& profit)
 {
     // Sorting jobs based on their end times
