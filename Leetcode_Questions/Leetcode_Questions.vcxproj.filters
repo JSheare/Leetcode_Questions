@@ -480,6 +480,9 @@
     <ClCompile Include="23_Merge_K_Sorted_Lists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="84_Largest_Rectangle_In_Histogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
