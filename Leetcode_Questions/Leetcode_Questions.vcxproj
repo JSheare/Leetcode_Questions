@@ -265,6 +265,7 @@
     <ClCompile Include="84_Largest_Rectangle_In_Histogram.cpp" />
     <ClCompile Include="863_All_Nodes_Distance_K_In_BT.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
+    <ClCompile Include="895_Maximum_Frequency_Stack.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />
     <ClCompile Include="91_Decode_Ways.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
@@ -274,6 +275,7 @@
     <ClCompile Include="994_Rotting_Oranges.cpp" />
     <ClCompile Include="9_Palindrome_Number.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
+    <ClCompile Include="FreqStack.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LRUCache.cpp" />
@@ -291,6 +293,7 @@
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="CacheNode.h" />
     <ClInclude Include="DisjointSet.h" />
+    <ClInclude Include="FreqStack.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="ListNode.h" />
