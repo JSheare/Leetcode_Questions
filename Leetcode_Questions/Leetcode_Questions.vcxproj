@@ -141,6 +141,7 @@
     <ClCompile Include="11_Container_Most_Water.cpp" />
     <ClCompile Include="121_Best_Time_to_Buy_and_Sell_Stock.cpp" />
     <ClCompile Include="1235_Maximum_Profit_In_Job_Scheduling.cpp" />
+    <ClCompile Include="124_Binary_Tree_Maximum_Path_Sum.cpp" />
     <ClCompile Include="125_Valid_Palindrome.cpp" />
     <ClCompile Include="127_Word_Ladder.cpp" />
     <ClCompile Include="128_Longest_Consecutive_Sequence.cpp" />
