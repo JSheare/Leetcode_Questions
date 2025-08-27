@@ -227,6 +227,7 @@
     <ClCompile Include="46_Permutations.cpp" />
     <ClCompile Include="48_Rotate_Image.cpp" />
     <ClCompile Include="49_Group_Anagrams.cpp" />
+    <ClCompile Include="4_Median_Of_Two_Sorted_Arrays.cpp" />
     <ClCompile Include="50_Pow.cpp" />
     <ClCompile Include="525_Contiguous_Array.cpp" />
     <ClCompile Include="528_Random_Pick_With_Weight.cpp" />

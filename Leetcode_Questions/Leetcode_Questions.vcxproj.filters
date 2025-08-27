@@ -492,6 +492,9 @@
     <ClCompile Include="FreqStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4_Median_Of_Two_Sorted_Arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
