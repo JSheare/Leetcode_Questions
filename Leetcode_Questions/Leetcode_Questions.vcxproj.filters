@@ -495,6 +495,9 @@
     <ClCompile Include="4_Median_Of_Two_Sorted_Arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="329_Longest_Increasing_Path_In_A_Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
