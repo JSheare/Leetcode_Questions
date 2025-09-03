@@ -178,6 +178,7 @@
     <ClCompile Include="20_Valid_Parentheses.cpp" />
     <ClCompile Include="210_Course_Schedule_II.cpp" />
     <ClCompile Include="211_Design_Add_And_Search_Words.cpp" />
+    <ClCompile Include="212_Word_Search_II.cpp" />
     <ClCompile Include="215_Kth_Largest_Element_In_Array.cpp" />
     <ClCompile Include="217_Contains_Duplicate.cpp" />
     <ClCompile Include="21_Merge_Two_Sorted_Lists.cpp" />
@@ -291,6 +292,7 @@
     <ClCompile Include="Trie.cpp" />
     <ClCompile Include="TrieNode.cpp" />
     <ClCompile Include="WordDictionary.cpp" />
+    <ClCompile Include="WSTrie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
@@ -312,6 +314,7 @@
     <ClInclude Include="Trie.h" />
     <ClInclude Include="TrieNode.h" />
     <ClInclude Include="WordDictionary.h" />
+    <ClInclude Include="WSTrie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

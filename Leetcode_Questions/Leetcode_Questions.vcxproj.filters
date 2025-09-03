@@ -501,6 +501,12 @@
     <ClCompile Include="32_Longest_Valid_Parentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WSTrie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="212_Word_Search_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -558,6 +564,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FreqStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WSTrie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
