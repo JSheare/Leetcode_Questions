@@ -17,10 +17,10 @@ void WordDictionary::addWord(std::string word)
     for (char& c : word)
     {
         int i{ c - 'a' };
-        if (!node->child[i])
-            node->child[i] = new TrieNode();
+        if (!node->children[i])
+            node->children[i] = new TrieNode();
 
-        node = node->child[i];
+        node = node->children[i];
     }
     node->isWord = true;
 }
@@ -39,13 +39,13 @@ bool WordDictionary::searchNode(std::string& word, TrieNode* node, int index)
         return node->isWord;
 
     if (word[index] != '.')  // Dot is a wildcard character
-        return searchNode(word, node->child[word[index] - 'a'], index + 1);
+        return searchNode(word, node->children[word[index] - 'a'], index + 1);
 
     for (int i{ 0 }; i < 26; ++i)
     {
-        if (node->child[i])
+        if (node->children[i])
         {
-            if (searchNode(word, node->child[i], index + 1))
+            if (searchNode(word, node->children[i], index + 1))
                 return true;
         }
     }

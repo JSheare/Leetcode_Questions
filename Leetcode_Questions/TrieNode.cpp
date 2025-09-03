@@ -2,17 +2,16 @@
 
 TrieNode::TrieNode()
 {
-	for (TrieNode* ptr : child)
+	for (int i{0}; i < 26; ++i)
 	{
-		ptr = nullptr;
+		children[i] = nullptr;
 	}
 }
 
 TrieNode::~TrieNode()
 {
-	for (TrieNode* ptr : child)
+	for (TrieNode* ptr : children)
 	{
-		if (ptr)
-			delete ptr;
+		delete ptr;
 	}
 }

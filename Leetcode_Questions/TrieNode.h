@@ -4,7 +4,7 @@
 class TrieNode
 {
 public:
-	TrieNode* child[26]{};
+	TrieNode* children[26]{};
 	bool isWord{ false };
 
 	TrieNode();

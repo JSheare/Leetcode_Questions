@@ -18,10 +18,10 @@ void Trie::insert(std::string s)
 	for (char& c : s)
 	{
 		int i{ c - 'a' };
-		if (!node->child[i])
-			node->child[i] = new TrieNode();
+		if (!node->children[i])
+			node->children[i] = new TrieNode();
 
-		node = node->child[i];
+		node = node->children[i];
 	}
 	node->isWord = true;
 }
@@ -32,10 +32,10 @@ bool Trie::search(std::string key, bool prefix)
 	for (char& c : key)
 	{
 		int i{ c - 'a' };
-		if (!node->child[i])
+		if (!node->children[i])
 			return false;
 
-		node = node->child[i];
+		node = node->children[i];
 	}
 	if (!prefix)
 		return node->isWord;
