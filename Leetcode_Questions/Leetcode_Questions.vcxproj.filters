@@ -507,6 +507,9 @@
     <ClCompile Include="212_Word_Search_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="815_Bus_Routes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
