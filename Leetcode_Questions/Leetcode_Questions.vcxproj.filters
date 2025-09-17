@@ -510,6 +510,9 @@
     <ClCompile Include="815_Bus_Routes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="239_Sliding_Window_Maximum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
