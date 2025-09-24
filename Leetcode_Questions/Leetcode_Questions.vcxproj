@@ -211,6 +211,7 @@
     <ClCompile Include="328_Odd_Even_LL.cpp" />
     <ClCompile Include="329_Longest_Increasing_Path_In_A_Matrix.cpp" />
     <ClCompile Include="32_Longest_Valid_Parentheses.cpp" />
+    <ClCompile Include="336_Palindrome_Pairs.cpp" />
     <ClCompile Include="338_Counting_Bits.cpp" />
     <ClCompile Include="33_Search_Rotated_Sorted_Array.cpp" />
     <ClCompile Include="36_Valid_Sudoku.cpp" />
