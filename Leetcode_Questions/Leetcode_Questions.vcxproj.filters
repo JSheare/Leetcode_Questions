@@ -516,6 +516,9 @@
     <ClCompile Include="336_Palindrome_Pairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="25_Reverse_Nodes_In_k-Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
