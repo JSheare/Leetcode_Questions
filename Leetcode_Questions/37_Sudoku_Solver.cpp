@@ -52,7 +52,7 @@ void solveSudoku(std::vector<std::vector<char>>& board)
 }
 #endif
 
-// Bit mask solution recursive backtrack solution
+// Bit mask recursive backtrack solution
 #if 1
 // See SudokuMask.h and SudokuMask.cpp for full implementation of the bit mask
 
