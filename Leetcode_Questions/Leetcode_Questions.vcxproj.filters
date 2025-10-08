@@ -519,6 +519,12 @@
     <ClCompile Include="25_Reverse_Nodes_In_k-Group.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="37_Sudoku_Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SudokuMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -579,6 +585,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WSTrie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SudokuMask.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

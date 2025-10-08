@@ -217,6 +217,7 @@
     <ClCompile Include="33_Search_Rotated_Sorted_Array.cpp" />
     <ClCompile Include="36_Valid_Sudoku.cpp" />
     <ClCompile Include="377_Combination_Sum_IV.cpp" />
+    <ClCompile Include="37_Sudoku_Solver.cpp" />
     <ClCompile Include="380_Insert_Delete_GetRandom.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
     <ClCompile Include="394_Decode_String.cpp" />
@@ -291,6 +292,7 @@
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="RandomizedSet.cpp" />
     <ClCompile Include="RandomPickWeighted.cpp" />
+    <ClCompile Include="SudokuMask.cpp" />
     <ClCompile Include="TimeMap.cpp" />
     <ClCompile Include="TreeCodec.cpp" />
     <ClCompile Include="Trie.cpp" />
@@ -312,6 +314,7 @@
     <ClInclude Include="Node.h" />
     <ClInclude Include="RandomizedSet.h" />
     <ClInclude Include="RandomPickWeighted.h" />
+    <ClInclude Include="SudokuMask.h" />
     <ClInclude Include="TimeMap.h" />
     <ClInclude Include="TreeCodec.h" />
     <ClInclude Include="TreeNode.h" />
