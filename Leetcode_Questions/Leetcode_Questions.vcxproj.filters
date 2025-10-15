@@ -525,6 +525,9 @@
     <ClCompile Include="SudokuMask.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="41_First_Missing_Positive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
