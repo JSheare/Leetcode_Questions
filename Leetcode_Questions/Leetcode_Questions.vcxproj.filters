@@ -531,6 +531,9 @@
     <ClCompile Include="51_N_Queens.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="632_Smallest_Range_Covering_K_Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
