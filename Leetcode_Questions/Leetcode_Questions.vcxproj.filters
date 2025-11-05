@@ -534,6 +534,9 @@
     <ClCompile Include="632_Smallest_Range_Covering_K_Lists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="6_Zigzag_Conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
