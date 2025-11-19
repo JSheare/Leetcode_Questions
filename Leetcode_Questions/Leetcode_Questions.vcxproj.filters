@@ -540,6 +540,9 @@
     <ClCompile Include="12_Integer_To_Roman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10_Regular_Expression_Match.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
