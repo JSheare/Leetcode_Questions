@@ -167,6 +167,7 @@
     <ClCompile Include="179_Largest_Number.cpp" />
     <ClCompile Include="17_Letter_Combos_Phone_Num.cpp" />
     <ClCompile Include="189_Rotate_Array.cpp" />
+    <ClCompile Include="18_4Sum.cpp" />
     <ClCompile Include="190_Reverse_Bits.cpp" />
     <ClCompile Include="191_Number_of_1_Bits.cpp" />
     <ClCompile Include="198_House_Robber.cpp" />
