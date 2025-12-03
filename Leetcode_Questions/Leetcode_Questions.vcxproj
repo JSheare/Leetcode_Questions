@@ -205,6 +205,7 @@
     <ClCompile Include="278_First_Bad_Version.cpp" />
     <ClCompile Include="283_Move_Zeroes.cpp" />
     <ClCompile Include="287_Find_Duplicate_Number.cpp" />
+    <ClCompile Include="28_Find_First_String_Occurrence_Index.cpp" />
     <ClCompile Include="295_Find_Median_From_Data_Stream.cpp" />
     <ClCompile Include="297_Serialize_And_Deserialize_BT.cpp" />
     <ClCompile Include="2_Add_Two_Numbers.cpp" />
