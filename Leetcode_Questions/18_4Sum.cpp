@@ -46,7 +46,7 @@ std::vector<std::vector<int>> fourSum(std::vector<int>& nums, int target)
 
 // 4Sum via kSum algorithm
 #if 0
-void kSumHelper(std::vector<int>& nums, std::vector<std::vector<int>>& sets, std::vector<int>& path, int l, int r, int k, int target)
+void kSumHelper(std::vector<int>& nums, std::vector<std::vector<int>>& sets, std::vector<int>& path, int l, int r, int k, long target)
 {
     if (k == 2)
     {
@@ -62,7 +62,7 @@ void kSumHelper(std::vector<int>& nums, std::vector<std::vector<int>>& sets, std
                 ++l;
                 --r;
                 // Skipping duplicate nums[l]
-                while (l + 1 < r && nums[l] == nums[l + 1])
+                while (l < r && nums[l] == nums[l - 1])
                 {
                     ++l;
                 }
@@ -73,7 +73,7 @@ void kSumHelper(std::vector<int>& nums, std::vector<std::vector<int>>& sets, std
                 ++l;
         }
     }
-    // Fixing k - 2 numbers
+    // Fixing k (the original k value) - 2 nums
     while (l < r)
     {
         path.push_back(nums[l]);
