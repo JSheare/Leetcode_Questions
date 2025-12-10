@@ -549,6 +549,9 @@
     <ClCompile Include="28_Find_First_String_Occurrence_Index.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="29_Divide_Two_Integers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
