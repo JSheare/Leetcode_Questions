@@ -211,6 +211,7 @@
     <ClCompile Include="29_Divide_Two_Integers.cpp" />
     <ClCompile Include="2_Add_Two_Numbers.cpp" />
     <ClCompile Include="300_Longest_Increasing_Subsequence.cpp" />
+    <ClCompile Include="30_Substring_With_Concat_Of_All_Words.cpp" />
     <ClCompile Include="310_Minimum_Height_Trees.cpp" />
     <ClCompile Include="31_Next_Permutation.cpp" />
     <ClCompile Include="322_Coin_Change.cpp" />

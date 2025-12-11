@@ -552,6 +552,9 @@
     <ClCompile Include="29_Divide_Two_Integers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="30_Substring_With_Concat_Of_All_Words.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
