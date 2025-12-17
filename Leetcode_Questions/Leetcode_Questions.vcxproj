@@ -222,6 +222,7 @@
     <ClCompile Include="338_Counting_Bits.cpp" />
     <ClCompile Include="33_Search_Rotated_Sorted_Array.cpp" />
     <ClCompile Include="34_First_Last_Positions_Sorted_Array.cpp" />
+    <ClCompile Include="35_Search_Insert_Position.cpp" />
     <ClCompile Include="36_Valid_Sudoku.cpp" />
     <ClCompile Include="377_Combination_Sum_IV.cpp" />
     <ClCompile Include="37_Sudoku_Solver.cpp" />

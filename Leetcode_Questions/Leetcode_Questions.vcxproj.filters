@@ -558,6 +558,9 @@
     <ClCompile Include="34_First_Last_Positions_Sorted_Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="35_Search_Insert_Position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
