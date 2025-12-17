@@ -555,6 +555,9 @@
     <ClCompile Include="30_Substring_With_Concat_Of_All_Words.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="34_First_Last_Positions_Sorted_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
