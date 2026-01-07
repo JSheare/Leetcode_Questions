@@ -567,6 +567,9 @@
     <ClCompile Include="Combination_Sum_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="43_Multiply_Strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
