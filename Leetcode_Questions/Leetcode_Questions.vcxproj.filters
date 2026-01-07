@@ -561,6 +561,9 @@
     <ClCompile Include="35_Search_Insert_Position.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="38_Count_And_Say.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

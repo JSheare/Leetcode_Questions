@@ -228,6 +228,7 @@
     <ClCompile Include="37_Sudoku_Solver.cpp" />
     <ClCompile Include="380_Insert_Delete_GetRandom.cpp" />
     <ClCompile Include="383_Ransom_Note.cpp" />
+    <ClCompile Include="38_Count_And_Say.cpp" />
     <ClCompile Include="394_Decode_String.cpp" />
     <ClCompile Include="39_Combination_Sum.cpp" />
     <ClCompile Include="3_Longest_Substring_Without_Repeats.cpp" />
