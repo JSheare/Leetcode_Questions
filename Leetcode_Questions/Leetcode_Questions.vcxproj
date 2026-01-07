@@ -297,6 +297,7 @@
     <ClCompile Include="994_Rotting_Oranges.cpp" />
     <ClCompile Include="9_Palindrome_Number.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
+    <ClCompile Include="Combination_Sum_II.cpp" />
     <ClCompile Include="FreqStack.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="LinkedList.cpp" />

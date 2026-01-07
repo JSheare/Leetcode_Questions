@@ -564,6 +564,9 @@
     <ClCompile Include="38_Count_And_Say.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Combination_Sum_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
