@@ -42,7 +42,7 @@ bool isMatch(std::string s, std::string p)
 
 // Bottom up dynamic programming solution. Derived from the recursive solution above
 #if 1
-bool isMatch(std::string s, std::string p)
+bool isRegexMatch(std::string s, std::string p)
 {
     int sLen{ static_cast<int>(s.size()) };
     int pLen{ static_cast<int>(p.size()) };
@@ -66,11 +66,11 @@ bool isMatch(std::string s, std::string p)
 int main()
 {
     // Provided test cases
-    assert(isMatch("aa", "a") == false);
+    assert(isRegexMatch("aa", "a") == false);
 
-    assert(isMatch("aa", "a*") == true);
+    assert(isRegexMatch("aa", "a*") == true);
 
-    assert(isMatch("ab", ".*") == true);
+    assert(isRegexMatch("ab", ".*") == true);
 
     std::cout << "Success!\n";
 

@@ -242,6 +242,7 @@
     <ClCompile Include="437_Path_Sum_III.cpp" />
     <ClCompile Include="438_Find_All_Anagrams.cpp" />
     <ClCompile Include="43_Multiply_Strings.cpp" />
+    <ClCompile Include="44_Wildcard_Matching.cpp" />
     <ClCompile Include="46_Permutations.cpp" />
     <ClCompile Include="48_Rotate_Image.cpp" />
     <ClCompile Include="49_Group_Anagrams.cpp" />
