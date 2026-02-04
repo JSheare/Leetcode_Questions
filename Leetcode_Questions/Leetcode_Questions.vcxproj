@@ -245,6 +245,7 @@
     <ClCompile Include="44_Wildcard_Matching.cpp" />
     <ClCompile Include="45_Jump_Game_II.cpp" />
     <ClCompile Include="46_Permutations.cpp" />
+    <ClCompile Include="47_Permutations_II.cpp" />
     <ClCompile Include="48_Rotate_Image.cpp" />
     <ClCompile Include="49_Group_Anagrams.cpp" />
     <ClCompile Include="4_Median_Of_Two_Sorted_Arrays.cpp" />

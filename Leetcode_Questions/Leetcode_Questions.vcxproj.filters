@@ -576,6 +576,9 @@
     <ClCompile Include="45_Jump_Game_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="47_Permutations_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
