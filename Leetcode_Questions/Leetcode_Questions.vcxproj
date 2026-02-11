@@ -263,6 +263,7 @@
     <ClCompile Include="572_Subtree_Of_Another_Tree.cpp" />
     <ClCompile Include="57_Insert_Interval.cpp" />
     <ClCompile Include="58_Length_Of_Last_Word.cpp" />
+    <ClCompile Include="59_Spiral_Matrix_II.cpp" />
     <ClCompile Include="5_Longest_Palindromic_Substr.cpp" />
     <ClCompile Include="61_Rotate_List.cpp" />
     <ClCompile Include="621_Task_Scheduler.cpp" />

@@ -582,6 +582,9 @@
     <ClCompile Include="58_Length_Of_Last_Word.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="59_Spiral_Matrix_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
