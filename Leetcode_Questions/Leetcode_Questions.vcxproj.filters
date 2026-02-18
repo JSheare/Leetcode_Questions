@@ -588,6 +588,9 @@
     <ClCompile Include="52_N_Queens_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="60_Permutation_Sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

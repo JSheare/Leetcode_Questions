@@ -266,6 +266,7 @@
     <ClCompile Include="58_Length_Of_Last_Word.cpp" />
     <ClCompile Include="59_Spiral_Matrix_II.cpp" />
     <ClCompile Include="5_Longest_Palindromic_Substr.cpp" />
+    <ClCompile Include="60_Permutation_Sequence.cpp" />
     <ClCompile Include="61_Rotate_List.cpp" />
     <ClCompile Include="621_Task_Scheduler.cpp" />
     <ClCompile Include="62_Unique_Paths.cpp" />
