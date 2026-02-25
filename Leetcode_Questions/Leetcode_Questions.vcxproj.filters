@@ -594,6 +594,9 @@
     <ClCompile Include="63_Unique_Paths_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="64_Minimum_Path_Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
