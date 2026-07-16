@@ -609,6 +609,9 @@
     <ClCompile Include="71_Simplify_Path.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="83_Remove_Duplicates_From_Sorted_List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
