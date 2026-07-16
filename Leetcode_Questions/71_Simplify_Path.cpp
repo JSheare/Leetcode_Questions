@@ -33,16 +33,16 @@ std::string simplifyPath(std::string path)
     }
 
     // Building the simplified canonical path and returning it
-    std::string new_path;
+    std::string newPath;
     while (!dq.empty())
     {
-        new_path += '/' + dq.front();
+        newPath += '/' + dq.front();
         dq.pop_front();
     }
-    if (new_path.size() == 0)
+    if (newPath.size() == 0)
         return "/";
 
-    return new_path;
+    return newPath;
 }
 
 #if 0
