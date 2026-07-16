@@ -283,6 +283,7 @@
     <ClCompile Include="6_Zigzag_Conversion.cpp" />
     <ClCompile Include="704_Binary_Search.cpp" />
     <ClCompile Include="70_Climbing_Stairs.cpp" />
+    <ClCompile Include="71_Simplify_Path.cpp" />
     <ClCompile Include="721_Accounts_Merge.cpp" />
     <ClCompile Include="733_Flood_Fill.cpp" />
     <ClCompile Include="735_Asteroid_Collision.cpp" />
