@@ -278,6 +278,7 @@
     <ClCompile Include="662_Maximum_Width_of_BT.cpp" />
     <ClCompile Include="66_Plus_One.cpp" />
     <ClCompile Include="67_Add_Binary.cpp" />
+    <ClCompile Include="68_Text_Justification.cpp" />
     <ClCompile Include="692_Top_K_Freq_Words.cpp" />
     <ClCompile Include="69_Sqrt_x.cpp" />
     <ClCompile Include="6_Zigzag_Conversion.cpp" />
