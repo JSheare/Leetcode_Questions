@@ -299,6 +299,7 @@
     <ClCompile Include="78_Subsets.cpp" />
     <ClCompile Include="79_Word_Search.cpp" />
     <ClCompile Include="7_Reverse_Integer.cpp" />
+    <ClCompile Include="80_Remove_Duplicates_From_Sorted_Array_II.cpp" />
     <ClCompile Include="815_Bus_Routes.cpp" />
     <ClCompile Include="83_Remove_Duplicates_From_Sorted_List.cpp" />
     <ClCompile Include="844_Backspace_String_Compare.cpp" />

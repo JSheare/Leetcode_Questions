@@ -621,6 +621,9 @@
     <ClCompile Include="77_Combinations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="80_Remove_Duplicates_From_Sorted_Array_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
