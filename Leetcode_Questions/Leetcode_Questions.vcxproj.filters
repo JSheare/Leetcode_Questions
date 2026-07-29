@@ -615,6 +615,9 @@
     <ClCompile Include="68_Text_Justification.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="72_Edit_Distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
