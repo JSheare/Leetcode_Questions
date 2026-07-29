@@ -618,6 +618,9 @@
     <ClCompile Include="72_Edit_Distance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="77_Combinations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
