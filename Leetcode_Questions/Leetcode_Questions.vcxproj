@@ -326,6 +326,7 @@
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="RandomizedSet.cpp" />
     <ClCompile Include="RandomPickWeighted.cpp" />
+    <ClCompile Include="Remove_Duplicates_From_Sorted_List_II.cpp" />
     <ClCompile Include="SudokuMask.cpp" />
     <ClCompile Include="TimeMap.cpp" />
     <ClCompile Include="TreeCodec.cpp" />
