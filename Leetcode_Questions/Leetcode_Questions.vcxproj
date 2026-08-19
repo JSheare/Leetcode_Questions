@@ -305,6 +305,7 @@
     <ClCompile Include="83_Remove_Duplicates_From_Sorted_List.cpp" />
     <ClCompile Include="844_Backspace_String_Compare.cpp" />
     <ClCompile Include="84_Largest_Rectangle_In_Histogram.cpp" />
+    <ClCompile Include="85_Maximal_Rectangle.cpp" />
     <ClCompile Include="863_All_Nodes_Distance_K_In_BT.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="895_Maximum_Frequency_Stack.cpp" />

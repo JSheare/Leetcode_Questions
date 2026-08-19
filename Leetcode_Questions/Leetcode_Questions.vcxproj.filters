@@ -630,6 +630,9 @@
     <ClCompile Include="Remove_Duplicates_From_Sorted_List_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="85_Maximal_Rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
