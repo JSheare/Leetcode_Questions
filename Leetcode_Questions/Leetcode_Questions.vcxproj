@@ -307,6 +307,7 @@
     <ClCompile Include="84_Largest_Rectangle_In_Histogram.cpp" />
     <ClCompile Include="85_Maximal_Rectangle.cpp" />
     <ClCompile Include="863_All_Nodes_Distance_K_In_BT.cpp" />
+    <ClCompile Include="86_Partition_List.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="895_Maximum_Frequency_Stack.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />
