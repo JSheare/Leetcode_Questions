@@ -636,6 +636,9 @@
     <ClCompile Include="86_Partition_List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="89_Gray_Code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

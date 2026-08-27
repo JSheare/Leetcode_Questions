@@ -310,6 +310,7 @@
     <ClCompile Include="86_Partition_List.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
     <ClCompile Include="895_Maximum_Frequency_Stack.cpp" />
+    <ClCompile Include="89_Gray_Code.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />
     <ClCompile Include="91_Decode_Ways.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
