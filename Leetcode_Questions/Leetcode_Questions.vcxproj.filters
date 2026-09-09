@@ -642,6 +642,9 @@
     <ClCompile Include="87_Scramble_String.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="90_Subsets_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
