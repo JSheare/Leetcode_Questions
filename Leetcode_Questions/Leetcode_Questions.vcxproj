@@ -309,6 +309,7 @@
     <ClCompile Include="863_All_Nodes_Distance_K_In_BT.cpp" />
     <ClCompile Include="86_Partition_List.cpp" />
     <ClCompile Include="876_Middle_of_Linked_List.cpp" />
+    <ClCompile Include="87_Scramble_String.cpp" />
     <ClCompile Include="895_Maximum_Frequency_Stack.cpp" />
     <ClCompile Include="89_Gray_Code.cpp" />
     <ClCompile Include="8_String_To_Int.cpp" />

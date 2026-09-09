@@ -639,6 +639,9 @@
     <ClCompile Include="89_Gray_Code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="87_Scramble_String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
