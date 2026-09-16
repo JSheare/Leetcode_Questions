@@ -317,6 +317,7 @@
     <ClCompile Include="91_Decode_Ways.cpp" />
     <ClCompile Include="92_Reverse_Linked_List_II.cpp" />
     <ClCompile Include="93_Restore_IP_Addresses.cpp" />
+    <ClCompile Include="94_Binary_Tree_Inorder_Traversal.cpp" />
     <ClCompile Include="973_K_Closest_Points_To_Origin.cpp" />
     <ClCompile Include="977_Squares_Of_Sorted_Array.cpp" />
     <ClCompile Include="981_Time_Based_Map.cpp" />

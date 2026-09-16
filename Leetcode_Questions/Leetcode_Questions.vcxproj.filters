@@ -651,6 +651,9 @@
     <ClCompile Include="93_Restore_IP_Addresses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="94_Binary_Tree_Inorder_Traversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
