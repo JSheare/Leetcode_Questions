@@ -648,6 +648,9 @@
     <ClCompile Include="92_Reverse_Linked_List_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="93_Restore_IP_Addresses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
