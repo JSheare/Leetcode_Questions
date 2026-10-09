@@ -69,7 +69,7 @@ static bool compareTrees(std::vector<BinaryTree>& one, std::vector<BinaryTree>& 
     return true;
 }
 
-#if 1
+#if 0
 int main()
 {
     // Provided test cases
