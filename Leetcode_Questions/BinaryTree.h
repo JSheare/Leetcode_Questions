@@ -17,13 +17,16 @@ public:
 
 	BinaryTree(TreeNode* new_root = nullptr);
 	BinaryTree(std::initializer_list<std::string> values);
+	BinaryTree(BinaryTree& tree);
+	BinaryTree(BinaryTree&& tree) noexcept;
 	~BinaryTree();
+	static TreeNode* copyTree(TreeNode* root);
 	TreeNode* findNode(int val);
 	bool operator==(BinaryTree& tree2);
 	friend std::ostream& operator<<(std::ostream& out, BinaryTree& tree);
 
 private:
-	TreeNode* makeTree(std::vector<std::string>& values);
+	TreeNode* makeTree(std::vector<std::string> values);
 	TreeNode* makeNode(std::vector<std::string>& values, int index);
 	std::vector<std::string> makeValues(TreeNode* root);
 	TreeNode* dfs(TreeNode* root, int val);

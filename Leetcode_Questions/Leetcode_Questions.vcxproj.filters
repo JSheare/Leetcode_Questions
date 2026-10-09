@@ -654,6 +654,9 @@
     <ClCompile Include="94_Binary_Tree_Inorder_Traversal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="95_Unique_Binary_Search_Trees_II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">

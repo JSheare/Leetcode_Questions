@@ -3,6 +3,7 @@
 #include <queue>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 #include "TreeNode.h"
 #include "BinaryTree.h"
@@ -14,14 +15,36 @@ BinaryTree::BinaryTree(TreeNode* new_root) :
 }
 
 BinaryTree::BinaryTree(std::initializer_list<std::string> values) :
-	root(nullptr), values(values)
+	root(nullptr)
 {
-	this->root = makeTree(this->values);
+	this->root = makeTree(values);
+	this->values = makeValues(this->root);
+}
+
+BinaryTree::BinaryTree(BinaryTree& tree)
+{
+	this->root = copyTree(tree.root);
+	this->values = tree.values;
+}
+
+BinaryTree::BinaryTree(BinaryTree&& tree) noexcept :
+	root(tree.root), values(tree.values)
+{
+	tree.root = nullptr;
+	tree.values = {};
 }
 
 BinaryTree::~BinaryTree()
 {
 	deleteTree(this->root);
+}
+
+TreeNode* BinaryTree::copyTree(TreeNode* root)
+{
+	if (!root)
+		return nullptr;
+
+	return new TreeNode(root->val, copyTree(root->left), copyTree(root->right));
 }
 
 TreeNode* BinaryTree::findNode(int val)
@@ -45,7 +68,7 @@ std::ostream& operator<<(std::ostream& out, BinaryTree& tree)
 	return out;
 }
 
-TreeNode* BinaryTree::makeTree(std::vector<std::string>& values)
+TreeNode* BinaryTree::makeTree(std::vector<std::string> values)
 {
 	if (values.size() - 1 == -1)
 		return nullptr;
