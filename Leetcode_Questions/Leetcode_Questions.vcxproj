@@ -325,6 +325,7 @@
     <ClCompile Include="981_Time_Based_Map.cpp" />
     <ClCompile Include="98_Validate_BST.cpp" />
     <ClCompile Include="994_Rotting_Oranges.cpp" />
+    <ClCompile Include="9_Interleaving_String.cpp" />
     <ClCompile Include="9_Palindrome_Number.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="Combination_Sum_II.cpp" />
