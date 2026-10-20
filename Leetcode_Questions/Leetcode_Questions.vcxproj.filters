@@ -663,6 +663,9 @@
     <ClCompile Include="97_Interleaving_String.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="99_Recover_Binary_Search_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
