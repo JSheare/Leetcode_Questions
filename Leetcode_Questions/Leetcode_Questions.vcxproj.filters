@@ -666,6 +666,9 @@
     <ClCompile Include="99_Recover_Binary_Search_Tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="106_Construct_BT_From_Inorder_Postorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
