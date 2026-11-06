@@ -672,6 +672,9 @@
     <ClCompile Include="107_Binary_Tree_Level_Order_Traversal_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="109_Sorted_List_To_BST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
