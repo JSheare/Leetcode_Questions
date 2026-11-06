@@ -675,6 +675,9 @@
     <ClCompile Include="109_Sorted_List_To_BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="111_Minimum_Depth_Of_Binary_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
